@@ -1,0 +1,2972 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500,300);
+
+@keyframes a {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes b {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+[src$="blue.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjMDA5Njg4IiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz48L3N2Zz4=)
+}
+
+[src$="red.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRjQ0MzM2IiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMSAxNWgtMnYtMmgydjJ6bTAtNGgtMlY3aDJ2NnoiLz48L3N2Zz4=)
+}
+
+[src$="yellow.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==)
+}
+
+[src$="aborted.png"],
+[src$="disabled.png"],
+[src$="grey.png"],
+[src$="nobuilt.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptNSAxMUg3di0yaDEwdjJ6Ii8+PC9zdmc+)
+}
+
+.icon-health-80plus {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEyIDdhNSA1IDAgMCAxIDUgNSA1IDUgMCAwIDEtNSA1IDUgNSAwIDAgMS01LTUgNSA1IDAgMCAxIDUtNW0wIDJhMyAzIDAgMCAwLTMgMyAzIDMgMCAwIDAgMyAzIDMgMyAwIDAgMCAzLTMgMyAzIDAgMCAwLTMtM20wLTdsMi4zOSAzLjQyQTYuOTggNi45OCAwIDAgMCAxMiA1Yy0uODQgMC0xLjY1LjE1LTIuMzkuNDJMMTIgMk0zLjM0IDdsNC4xNi0uMzVBNy4yIDcuMiAwIDAgMCA1Ljk0IDguNWMtLjQ0Ljc0LS42OSAxLjUtLjgzIDIuMjlMMy4zNCA3bS4wMiAxMGwxLjc2LTMuNzdhNy4xMyA3LjEzIDAgMCAwIDIuMzggNC4xNEwzLjM2IDE3TTIwLjY1IDdsLTEuNzcgMy43OWE3LjAyMyA3LjAyMyAwIDAgMC0yLjM4LTQuMTVsNC4xNS4zNm0tLjAxIDEwbC00LjE0LjM2Yy41OS0uNTEgMS4xMi0xLjE0IDEuNTQtMS44Ni40Mi0uNzMuNjktMS41LjgzLTIuMjlMMjAuNjQgMTdNMTIgMjJsLTIuNDEtMy40NGMuNzQuMjcgMS41NS40NCAyLjQxLjQ0LjgyIDAgMS42My0uMTcgMi4zNy0uNDRMMTIgMjJ6Ii8+PC9zdmc+)
+}
+
+.icon-health-60to79 {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEyLjc0IDUuNDdjMi4zNiAxLjAzIDMuNjEgMy41NiAzLjE4IDUuOTlBNi4wMDIgNi4wMDIgMCAwIDEgMTggMTZ2LjE3YTMgMyAwIDAgMSAxLS4xNyAzIDMgMCAwIDEgMyAzIDMgMyAwIDAgMS0zIDNINmE0IDQgMCAwIDEtNC00IDQgNCAwIDAgMSA0LTRoLjI3QzUgMTIuNDUgNC42IDEwLjI0IDUuNSA4LjI2YTUuNDkgNS40OSAwIDAgMSA3LjI0LTIuNzltLS44MSAxLjgzYy0xLjc3LS44LTMuODQuMDEtNC42MiAxLjc3YTMuNDkgMy40OSAwIDAgMCAuMSAzLjA2QTUuOTg4IDUuOTg4IDAgMCAxIDEyIDEwYTYgNiAwIDAgMSAyIC4zNCAzLjUwNiAzLjUwNiAwIDAgMC0yLjA3LTMuMDRtMS42Mi0zLjY2Yy0uNTUtLjI0LTEuMS0uNDEtMS42Ny0uNTJsMi40OS0xLjMuOSAyLjg5YTcuNjcgNy42NyAwIDAgMC0xLjcyLTEuMDdtLTcuNDYuOGMtLjQ5LjM1LS45Mi43NS0xLjI5IDEuMTlsLjExLTIuODEgMi45Ni42OGMtLjYyLjIxLTEuMjIuNTMtMS43OC45NE0xOCA5LjcxQTkuNjkgOS42OSAwIDAgMCAxNy41OSA4bDIuMzggMS41LTIuMDUgMi4yM2MuMTEtLjY1LjEzLTEuMzMuMDgtMi4wMk0zLjA0IDExLjNjLjA3LjYuMiAxLjE3LjM5IDEuN2wtMi4zNy0xLjVMMy4xIDkuMjhjLS4xLjY1LS4xMyAxLjMzLS4wNiAyLjAyTTE5IDE4aC0zdi0yYTQgNCAwIDAgMC00LTQgNCA0IDAgMCAwLTQgNEg2YTIgMiAwIDAgMC0yIDIgMiAyIDAgMCAwIDIgMmgxM2ExIDEgMCAwIDAgMS0xIDEgMSAwIDAgMC0xLTF6Ii8+PC9zdmc+)
+}
+
+.icon-health-40to59 {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTYgMTlhNSA1IDAgMCAxLTUtNSA1IDUgMCAwIDEgNS01YzEtMi4zNSAzLjMtNCA2LTQgMy40MyAwIDYuMjQgMi42NiA2LjUgNi4wM0wxOSAxMWE0IDQgMCAwIDEgNCA0IDQgNCAwIDAgMS00IDRINm0xMy02aC0ydi0xYTUgNSAwIDAgMC01LTVjLTIuNSAwLTQuNTUgMS44Mi00Ljk0IDQuMTlBMy4xMSAzLjExIDAgMCAwIDYgMTFhMyAzIDAgMCAwLTMgMyAzIDMgMCAwIDAgMyAzaDEzYTIgMiAwIDAgMCAyLTIgMiAyIDAgMCAwLTItMnoiLz48L3N2Zz4=)
+}
+
+.icon-health-20to39 {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTYgMTRhMSAxIDAgMCAxIDEgMSAxIDEgMCAwIDEtMSAxIDUgNSAwIDAgMS01LTUgNSA1IDAgMCAxIDUtNWMxLTIuMzUgMy4zLTQgNi00IDMuNDMgMCA2LjI0IDIuNjYgNi41IDYuMDNMMTkgOGE0IDQgMCAwIDEgNCA0IDQgNCAwIDAgMS00IDRoLTFhMSAxIDAgMCAxLTEtMSAxIDEgMCAwIDEgMS0xaDFhMiAyIDAgMCAwIDItMiAyIDIgMCAwIDAtMi0yaC0yVjlhNSA1IDAgMCAwLTUtNUM5LjUgNCA3LjQ1IDUuODIgNy4wNiA4LjE5QTMuMTEgMy4xMSAwIDAgMCA2IDhhMyAzIDAgMCAwLTMgMyAzIDMgMCAwIDAgMyAzbTguODMgMS42N2MxLjU2IDEuNTYgMS41NiAzLjgzIDAgNS40MS0uNzguNzgtMS44My45Mi0yLjgzLjkycy0yLjA1LS4xNC0yLjgzLS45MmMtMS41Ni0xLjU4LTEuNTYtMy44NSAwLTUuNDFMMTIgMTFsMi44MyA0LjY3bS0xLjQyIDEuMDJMMTIgMTQuMjVsLTEuNDEgMi40NGMtLjc5LjgxLS43OSAyLjAxIDAgMi44MS40MS40My45MS41IDEuNDEuNS41IDAgMS0uMDcgMS40MS0uNS43OS0uOC43OS0yIDAtMi44MXoiLz48L3N2Zz4=)
+}
+
+.icon-health-00to19 {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTkgMTJjLjUzLjE0Ljg1LjY5LjcxIDEuMjJsLTEuMyA0LjgzYy0uMTQuNTQtLjY5Ljg1LTEuMjIuNzFhLjk2Ny45NjcgMCAwIDEtLjY5LTEuMjJsMS4yOC00LjgzYy4xNC0uNTQuNjktLjg1IDEuMjItLjcxbTQgMGMuNTMuMTQuODUuNjkuNzEgMS4yMmwtMi4wNyA3LjczYy0uMTQuNTUtLjY5Ljg1LTEuMjMuNzEtLjUzLS4xNi0uODUtLjY5LS43MS0xLjIzbDIuMDgtNy43MmMuMTQtLjU0LjY5LS44NSAxLjIyLS43MW00IDBjLjUzLjE0Ljg1LjY5LjcxIDEuMjJsLTEuMyA0LjgzYy0uMTQuNTQtLjY5Ljg1LTEuMjIuNzFhLjk2Ny45NjcgMCAwIDEtLjY5LTEuMjJsMS4yOC00LjgzYy4xNC0uNTQuNjktLjg1IDEuMjItLjcxbTAtMlY5YTUgNSAwIDAgMC01LTVDOS41IDQgNy40NSA1LjgyIDcuMDYgOC4xOUEzLjExIDMuMTEgMCAwIDAgNiA4YTMgMyAwIDAgMC0zIDNjMCAxLjExLjYgMi4wOCAxLjUgMi42di0uMDFjLjUuMjguNjQuOTEuMzcgMS4zNy0uMjguNDctLjg3LjY0LTEuMzcuMzZ2LjAxQTQuOTggNC45OCAwIDAgMSAxIDExYTUgNSAwIDAgMSA1LTVjMS0yLjM1IDMuMy00IDYtNCAzLjQzIDAgNi4yNCAyLjY2IDYuNSA2LjAzTDE5IDhhNCA0IDAgMCAxIDQgNGMwIDEuNS0uOCAyLjc3LTIgMy40Ni0uNS4yNy0xLjA5LjExLTEuMzctLjM3LS4yNy0uNDgtLjEzLTEuMDkuMzctMS4zN3YuMDFjLjYtLjM0IDEtLjk5IDEtMS43M2EyIDIgMCAwIDAtMi0yaC0yeiIvPjwvc3ZnPg==)
+}
+
+.icon-blue-anime,
+[src$="blue_anime.gif"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjMDA5Njg4IiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==)
+}
+
+.icon-red-anime,
+[src$="red_anime.gif"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRjQ0MzM2IiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==)
+}
+
+.icon-aborted-anime,
+.icon-grey-anime,
+.icon-nobuilt-anime,
+[src$="grey_anime.gif"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==)
+}
+
+.icon-yellow-anime,
+[src$="yellow_anime.gif"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==)
+}
+
+.icon-new-package,
+[src$="new-package.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTMgN2gtMnY0SDd2Mmg0djRoMnYtNGg0di0yaC00Vjd6bS0xLTVDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4eiIvPjwvc3ZnPg==)
+}
+
+.icon-user,
+[src$="user.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+PC9zdmc+)
+}
+
+.icon-notepad,
+[src$="notepad.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTMgM2E5IDkgMCAwIDAtOSA5SDFsMy44OSAzLjg5LjA3LjE0TDkgMTJINmMwLTMuODcgMy4xMy03IDctN3M3IDMuMTMgNyA3LTMuMTMgNy03IDdjLTEuOTMgMC0zLjY4LS43OS00Ljk0LTIuMDZsLTEuNDIgMS40MkE4Ljk1NCA4Ljk1NCAwIDAgMCAxMyAyMWE5IDkgMCAwIDAgMC0xOHptLTEgNXY1bDQuMjggMi41NC43Mi0xLjIxLTMuNS0yLjA4VjhIMTJ6Ii8+PC9zdmc+)
+}
+
+.icon-gear2,
+.icon-setting,
+[src$="gear2.png"],
+[src$="setting.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVBLjQ4OC40ODggMCAwIDAgMTQgMmgtNGMtLjI1IDAtLjQ2LjE4LS40OS40MmwtLjM4IDIuNjVjLS42MS4yNS0xLjE3LjU5LTEuNjkuOThsLTIuNDktMWMtLjIzLS4wOS0uNDkgMC0uNjEuMjJsLTIgMy40NmMtLjEzLjIyLS4wNy40OS4xMi42NGwyLjExIDEuNjVjLS4wNC4zMi0uMDcuNjUtLjA3Ljk4cy4wMy42Ni4wNy45OGwtMi4xMSAxLjY1Yy0uMTkuMTUtLjI0LjQyLS4xMi42NGwyIDMuNDZjLjEyLjIyLjM5LjMuNjEuMjJsMi40OS0xYy41Mi40IDEuMDguNzMgMS42OS45OGwuMzggMi42NWMuMDMuMjQuMjQuNDIuNDkuNDJoNGMuMjUgMCAuNDYtLjE4LjQ5LS40MmwuMzgtMi42NWMuNjEtLjI1IDEuMTctLjU5IDEuNjktLjk4bDIuNDkgMWMuMjMuMDkuNDkgMCAuNjEtLjIybDItMy40NmMuMTItLjIyLjA3LS40OS0uMTItLjY0bC0yLjExLTEuNjV6TTEyIDE1LjVjLTEuOTMgMC0zLjUtMS41Ny0zLjUtMy41czEuNTctMy41IDMuNS0zLjUgMy41IDEuNTcgMy41IDMuNS0xLjU3IDMuNS0zLjUgMy41eiIvPjwvc3ZnPg==)
+}
+
+.icon-up,
+.task-icon-link[href="/"] img {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjAgMTFINy44M2w1LjU5LTUuNTlMMTIgNGwtOCA4IDggOCAxLjQxLTEuNDFMNy44MyAxM0gyMHYtMnoiLz48L3N2Zz4=)
+}
+
+.icon-edit-delete {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAxOWMwIDEuMS45IDIgMiAyaDhjMS4xIDAgMi0uOSAyLTJWN0g2djEyek0xOSA0aC0zLjVsLTEtMWgtNWwtMSAxSDV2MmgxNFY0eiIvPjwvc3ZnPg==)
+}
+
+.icon-fingerprint,
+[src$="fingerprint.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjOUU5RTlFIj48cGF0aCBkPSJNMTEuODMgMS43M2MtMy40LjA2LTUuNiAxLjU5LTUuNiAxLjU5LS4yOC4xOC0uMzUuNTktLjE2Ljg3LjIuMzEuNTkuMzYuODkuMTUgMCAwIDQuMzEtMy4xOSAxMC41LjA0LjI5LjE3LjY4LjA3Ljg1LS4yMy4xOS0uMy4wNi0uNjgtLjI4LS44Ny0xLjY3LS44OC0zLjI1LTEuMzItNC42Ny0xLjQ4LS41My0uMDYtMS4wNC0uMDgtMS41My0uMDdtLjM5IDIuNjFjLTUuOTYtLjA4LTguODEgNC43MS04LjgxIDQuNzEtLjE5LjI5LS4xMS42Ny4xNy44Ni4yOS4xOS42OC4wOS45Mi0uMjMgMCAwIDIuNDItNC4xOCA3LjctNC4wOSA1LjMuMDcgNy42MiA0LjA2IDcuNjIgNC4wNi4xOC4yOS41Ni4zOS44Ni4yMi4zMi0uMTguMzktLjU2LjIyLS44NyAwIDAtMi43NS00LjU4LTguNjgtNC42Nm0tLjcyIDIuNDhjLTEuNjguMTItMy4yOS43My00LjUgMS43NEM0LjYyIDEwLjUzIDMuMSAxNC4xNCA0Ljc3IDE5Yy4xMS4zMy40Ny41LjguMzkuMzItLjExLjUtLjQ3LjM4LS43OS0xLjU0LTQuNDctLjE3LTcuNCAxLjg1LTkuMSAxLjk3LTEuNjEgNS40NS0yIDguMDQtLjQgMS4yNy44IDIuMjYgMi4xOCAyLjc2IDMuNTQuNTEgMS4zNi40OCAyLjY4LjA3IDMuMy0uNDIuNjUtMS4yNy44OS0yLjAyLjctLjc1LS4xOS0xLjM2LS43My0xLjM5LTEuODctLjAzLTEuNzEtMS4zNy0yLjc3LTIuNzYtMi45My0xLjM0LS4xNi0yLjg5LjU2LTMuMjkgMi4xNi0uNzYgMi45MiAxLjE1IDcuMDcgNS41NyA4LjQ1LjMzLjEuNjgtLjA4Ljc5LS40MS4xLS4zMy0uMDctLjY5LS40Mi0uNzktMy44My0xLjE5LTUuMjgtNC44Mi00LjczLTYuOTYuMjQtLjk2IDEuMDgtMS4yOSAxLjk2LTEuMjEuODcuMSAxLjYyLjYyIDEuNjIgMS43MS4wNSAxLjY0IDEuMTIgMi43NSAyLjM0IDMuMDYgMS4yMi4zMSAyLjYzLS4wOCAzLjM4LTEuMjMuNzgtMS4xNy42NS0yLjgyLjA2LTQuNDEtLjYtMS42LTEuNzEtMy4xOC0zLjI4LTQuMTdhOC4zNCA4LjM0IDAgMCAwLTUtMS4yMm0uMzYgMi40M3YuMDFjLTEuNzguMDYtMy41Ni45OC00LjU4IDIuOTItMS4zMiAyLjQ5LS43MiA1LjAzLjE2IDYuODYuODkgMS44NCAyLjEgMy4wNiAyLjEgMy4wNi4yNC4yNS42My4yNS44OC4wMXMuMjUtLjYxLjAxLS44OGMwIDAtMS4wNy0xLjEtMS44Ni0yLjczcy0xLjI3LTMuNjktLjE5LTUuNzNjMS4xMi0yLjEgMy4xMi0yLjYxIDQuODgtMi4xIDEuNzguNTIgMy4yNyAyLjA3IDMuMjQgNC4zNi0uMDQuMzUuMjEuNjUuNTYuNjcuMzQuMDMuNjQtLjIzLjY3LS42NC4wNi0yLjg2LTEuODYtNC45My00LjEyLTUuNTlhNS43NiA1Ljc2IDAgMCAwLTEuNzUtLjIybS4yMiA1Yy0uMzUuMDEtLjYyLjMtLjYxLjY0IDAgMCAuMDMgMS40OC44NCAyLjkxLjg0IDEuNDMgMi42MiAyLjc5IDUuNzIgMi41LjM0LS4wMi42MS0uMy41OS0uNjYtLjAyLS4zNS0uMzItLjYxLS43MS0uNTgtMi43Mi4yNS0zLjg3LS43OC00LjUyLTEuODktLjY1LTEuMS0uNjctMi4yOS0uNjctMi4yOWEuNjMuNjMgMCAwIDAtLjY0LS42M3oiLz48L3N2Zz4=)
+}
+
+.icon-graph,
+[src$="graph.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6TTkgMTdIN3YtN2gydjd6bTQgMGgtMlY3aDJ2MTB6bTQgMGgtMnYtNGgydjR6Ii8+PC9zdmc+)
+}
+
+.icon-collapse {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgOGwtNiA2IDEuNDEgMS40MUwxMiAxMC44M2w0LjU5IDQuNThMMTggMTR6Ii8+PC9zdmc+)
+}
+
+.icon-expand {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjwvc3ZnPg==)
+}
+
+.icon-help,
+[src$="help.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTEgMThoMnYtMmgtMnYyem0xLTE2QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHptMC0xNGE0IDQgMCAwIDAtNCA0aDJjMC0xLjEuOS0yIDItMnMyIC45IDIgMmMwIDItMyAxLjc1LTMgNWgyYzAtMi4yNSAzLTIuNSAzLTVhNCA0IDAgMCAwLTQtNHoiLz48L3N2Zz4=)
+}
+
+.icon-lock,
+.icon-secure,
+[src$="secure.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTggOGgtMVY2YzAtMi43Ni0yLjI0LTUtNS01UzcgMy4yNCA3IDZ2Mkg2Yy0xLjEgMC0yIC45LTIgMnYxMGMwIDEuMS45IDIgMiAyaDEyYzEuMSAwIDItLjkgMi0yVjEwYzAtMS4xLS45LTItMi0yem0tNiA5Yy0xLjEgMC0yLS45LTItMnMuOS0yIDItMiAyIC45IDIgMi0uOSAyLTIgMnptMy4xLTlIOC45VjZjMC0xLjcxIDEuMzktMy4xIDMuMS0zLjEgMS43MSAwIDMuMSAxLjM5IDMuMSAzLjF2MnoiLz48L3N2Zz4=)
+}
+
+.icon-plugin,
+[src$="plugin.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjAuNSAxMUgxOVY3YzAtMS4xLS45LTItMi0yaC00VjMuNWEyLjUgMi41IDAgMCAwLTUgMFY1SDRjLTEuMSAwLTEuOTkuOS0xLjk5IDJ2My44SDMuNWMxLjQ5IDAgMi43IDEuMjEgMi43IDIuN3MtMS4yMSAyLjctMi43IDIuN0gyVjIwYzAgMS4xLjkgMiAyIDJoMy44di0xLjVhMi43IDIuNyAwIDAgMSAyLjctMi43IDIuNyAyLjcgMCAwIDEgMi43IDIuN1YyMkgxN2MxLjEgMCAyLS45IDItMnYtNGgxLjVhMi41IDIuNSAwIDAgMCAwLTV6Ii8+PC9zdmc+)
+}
+
+.icon-system-log-out,
+[src$="system-log-out.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTMgM2gtMnYxMGgyVjN6bTQuODMgMi4xN2wtMS40MiAxLjQyQTYuOTIgNi45MiAwIDAgMSAxOSAxMmMwIDMuODctMy4xMyA3LTcgN0E2Ljk5NSA2Ljk5NSAwIDAgMSA3LjU4IDYuNThMNi4xNyA1LjE3QTguOTMyIDguOTMyIDAgMCAwIDMgMTJhOSA5IDAgMCAwIDE4IDBjMC0yLjc0LTEuMjMtNS4xOC0zLjE3LTYuODN6Ii8+PC9zdmc+)
+}
+
+.icon-refresh,
+[src$="refresh.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTcuNjUgNi4zNUE3Ljk1OCA3Ljk1OCAwIDAgMCAxMiA0Yy00LjQyIDAtNy45OSAzLjU4LTcuOTkgOHMzLjU3IDggNy45OSA4YzMuNzMgMCA2Ljg0LTIuNTUgNy43My02aC0yLjA4QTUuOTkgNS45OSAwIDAgMSAxMiAxOGMtMy4zMSAwLTYtMi42OS02LTZzMi42OS02IDYtNmMxLjY2IDAgMy4xNC42OSA0LjIyIDEuNzhMMTMgMTFoN1Y0bC0yLjM1IDIuMzV6Ii8+PC9zdmc+)
+}
+
+.icon-computer,
+[src$="computer.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjAgMThjMS4xIDAgMS45OS0uOSAxLjk5LTJMMjIgNmMwLTEuMS0uOS0yLTItMkg0Yy0xLjEgMC0yIC45LTIgMnYxMGMwIDEuMS45IDIgMiAySDB2MmgyNHYtMmgtNHpNNCA2aDE2djEwSDRWNnoiLz48L3N2Zz4=)
+}
+
+.icon-computer-x {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHN0eWxlPi5zdDB7ZmlsbDojOUU5RTlFfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1IDEzLjVjLjggMCAxLjUtLjcgMS41LTEuNVY0LjVjMC0uOC0uNy0xLjUtMS41LTEuNUgzYy0uOCAwLTEuNS43LTEuNSAxLjVWMTJjMCAuOC43IDEuNSAxLjUgMS41SDBWMTVoMTh2LTEuNWgtM3ptLTEyLTloMTJWMTJIM1Y0LjV6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTcuNSA1LjdsLTEuMSAxTDggOC4yIDYuNCA5LjhsMS4xIDFMOSA5LjNsMS41IDEuNSAxLjEtMUwxMCA4LjJsMS42LTEuNS0xLjEtMUw5IDcuMiA3LjUgNS43Ii8+PC9zdmc+)
+}
+
+.icon-new-computer {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHN0eWxlPi5zdDB7ZmlsbDojOUU5RTlFfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1IDEzLjVjLjggMCAxLjUtLjcgMS41LTEuNVY0LjVjMC0uOC0uNy0xLjUtMS41LTEuNUgzYy0uOCAwLTEuNS43LTEuNSAxLjVWMTJjMCAuOC43IDEuNSAxLjUgMS41SDBWMTVoMTh2LTEuNWgtM3ptLTEyLTloMTJWMTJIM1Y0LjV6bTYuNi43SDguNHYyLjRINnYxLjJoMi40djIuNGgxLjJWOC45SDEyVjcuN0g5LjZWNS4yeiIvPjwvc3ZnPg==)
+}
+
+.icon-clipboard,
+[src$="clipboard.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTkgM2gtNC4xOEMxNC40IDEuODQgMTMuMyAxIDEyIDFjLTEuMyAwLTIuNC44NC0yLjgyIDJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yem0tNyAwYy41NSAwIDEgLjQ1IDEgMXMtLjQ1IDEtMSAxLTEtLjQ1LTEtMSAuNDUtMSAxLTF6bTIgMTRIN3YtMmg3djJ6bTMtNEg3di0yaDEwdjJ6bTAtNEg3VjdoMTB2MnoiLz48L3N2Zz4=)
+}
+
+.icon-monitor,
+[src$="monitor.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTE3LjQ1IDE1LjE4TDIyIDcuMzFWMjFIMlYzaDJ2MTIuNTRMOS41IDYgMTYgOS43OGw0LjI0LTcuMzMgMS43MyAxLTUuMjMgOS4wNS02LjUxLTMuNzVMNC4zMSAxOWgyLjI2bDQuMzktNy41NiA2LjQ5IDMuNzR6Ii8+PC9zdmc+)
+}
+
+.icon-terminal,
+[src$="terminal.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTIwIDE5VjdINHYxMmgxNm0wLTE2YTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE2bS03IDE0di0yaDV2MmgtNW0tMy40Mi00TDUuNTcgOUg4LjRsMy4zIDMuM2MuMzkuMzkuMzkgMS4wMyAwIDEuNDJMOC40MiAxN0g1LjU5bDMuOTktNHoiLz48L3N2Zz4=)
+}
+
+.icon-network,
+[src$="network.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEzIDE4aDFhMSAxIDAgMCAxIDEgMWg3djJoLTdhMSAxIDAgMCAxLTEgMWgtNGExIDEgMCAwIDEtMS0xSDJ2LTJoN2ExIDEgMCAwIDEgMS0xaDF2LTJINGExIDEgMCAwIDEtMS0xdi00YTEgMSAwIDAgMSAxLTFoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFoLTd2Mk00IDJoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjNhMSAxIDAgMCAxIDEtMW01IDRoMVY0SDl2Mm0wIDhoMXYtMkg5djJNNSA0djJoMlY0SDVtMCA4djJoMnYtMkg1eiIvPjwvc3ZnPg==)
+}
+
+.icon-document,
+.icon-text {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAyYy0xLjEgMC0xLjk5LjktMS45OSAyTDQgMjBjMCAxLjEuODkgMiAxLjk5IDJIMThjMS4xIDAgMi0uOSAyLTJWOGwtNi02SDZ6bTcgN1YzLjVMMTguNSA5SDEzeiIvPjwvc3ZnPg==)
+}
+
+.icon-folder,
+[src$="/directory16.png"],
+[src$="folder.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEwIDRINGMtMS4xMSAwLTIgLjg5LTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWOGEyIDIgMCAwIDAtMi0yaC04bC0yLTJ6Ii8+PC9zdmc+)
+}
+
+.icon-clock,
+.icon-clock-anime,
+[src$="clock.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTAgMTYuNWw2LTQuNS02LTQuNXY5ek0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=)
+}
+
+.icon-folder-delete,
+[src$="edit-delete.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEwIDRsMiAyaDhhMiAyIDAgMCAxIDIgMnYxMGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY2YzAtMS4xMS44OS0yIDItMmg2bTIuNDYgNi44OEwxNC41OSAxM2wtMi4xMyAyLjEyIDEuNDIgMS40MkwxNiAxNC40MWwyLjEyIDIuMTMgMS40Mi0xLjQyTDE3LjQxIDEzbDIuMTMtMi4xMi0xLjQyLTEuNDJMMTYgMTEuNTlsLTIuMTItMi4xMy0xLjQyIDEuNDJ6Ii8+PC9zdmc+)
+}
+
+.icon-previous {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiA2aDJ2MTJINnptMy41IDZsOC41IDZWNnoiLz48L3N2Zz4=)
+}
+
+.icon-next {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAxOGw4LjUtNkw2IDZ2MTJ6TTE2IDZ2MTJoMlY2aC0yeiIvPjwvc3ZnPg==)
+}
+
+.icon-save,
+[src$="/save.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTcgM0g1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmgxNGMxLjEgMCAyLS45IDItMlY3bC00LTR6bS01IDE2Yy0xLjY2IDAtMy0xLjM0LTMtM3MxLjM0LTMgMy0zIDMgMS4zNCAzIDMtMS4zNCAzLTMgM3ptMy0xMEg1VjVoMTB2NHoiLz48L3N2Zz4=)
+}
+
+.icon-package,
+[src$="package.gif"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTUuMTIgNWwuODEtMWgxMmwuOTQgMU0xMiAxNy41TDYuNSAxMkgxMHYtMmg0djJoMy41TDEyIDE3LjVtOC41NC0xMi4yN2wtMS4zOS0xLjY4QTEuNDUgMS40NSAwIDAgMCAxOCAzSDZjLS40NyAwLS44OC4yMS0xLjE2LjU1TDMuNDYgNS4yM0MzLjE3IDUuNTcgMyA2IDMgNi41VjE5YTIgMiAwIDAgMCAyIDJoMTRhMiAyIDAgMCAwIDItMlY2LjVjMC0uNS0uMTctLjkzLS40Ni0xLjI3eiIvPjwvc3ZnPg==)
+}
+
+.icon-search,
+[src$="search.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTEgMTdoMnYtNmgtMnY2em0xLTE1QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHpNMTEgOWgyVjdoLTJ2MnoiLz48L3N2Zz4=)
+}
+
+.icon-stop {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTE1LjQgMi42NVExOCA1LjM1IDE4IDlxMCAzLjc1LTIuNiA2LjRRMTIuNzUgMTggOSAxOHEtMy43NSAwLTYuMzUtMi42UTAgMTIuNzUgMCA5cTAtMy43NSAyLjY1LTYuMzVRNS4yNSAwIDkgMHEzLjc1IDAgNi40IDIuNjVNMTYuMiA5cTAtMi45LTIuMS01UTExLjk1IDEuOCA5IDEuOCA2IDEuOCAzLjkgNCAxLjc1IDYuMSAxLjc1IDlxMCAzIDIuMTUgNS4xUTYgMTYuMiA5IDE2LjJxMi45NSAwIDUuMS0yLjFRMTYuMiAxMiAxNi4yIDlNNS4yNSAxMi43NXYtNy41aDcuNXY3LjVoLTcuNSIvPjwvc3ZnPg==)
+}
+
+[src$="/move.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNOSAxOHYtM0g1di00aDRWOGw1IDVtNi03aC04bC0yLTJINGMtMS4xMSAwLTIgLjg5LTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWOGEyIDIgMCAwIDAtMi0yeiIvPjwvc3ZnPg==)
+}
+
+[src$="/atom.gif"] {
+    padding-left: 28.8px !important;
+    padding-top: 28.8px !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iI0ZGQzEwNyIgZD0iTTUgM2gxNGEyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjVhMiAyIDAgMCAxIDItMm0yLjUgMTJBMS41IDEuNSAwIDAgMCA2IDE2LjUgMS41IDEuNSAwIDAgMCA3LjUgMTggMS41IDEuNSAwIDAgMCA5IDE2LjUgMS41IDEuNSAwIDAgMCA3LjUgMTVNNiAxMHYyYTYgNiAwIDAgMSA2IDZoMmE4IDggMCAwIDAtOC04bTAtNHYyYTEwIDEwIDAgMCAxIDEwIDEwaDJBMTIgMTIgMCAwIDAgNiA2eiIvPjwvc3ZnPg==)
+}
+
+[src$="/atom.gif"],
+[src$="credentials.png"] {
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important
+}
+
+[src$="credentials.png"] {
+    padding-left: 57.6px !important;
+    padding-top: 57.6px !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTcgMTRhMiAyIDAgMCAxLTItMiAyIDIgMCAwIDEgMi0yIDIgMiAwIDAgMSAyIDIgMiAyIDAgMCAxLTIgMm01LjY1LTRBNS45OSA1Ljk5IDAgMCAwIDcgNmE2IDYgMCAwIDAtNiA2IDYgNiAwIDAgMCA2IDYgNS45OSA1Ljk5IDAgMCAwIDUuNjUtNEgxN3Y0aDR2LTRoMnYtNEgxMi42NXoiLz48L3N2Zz4=)
+}
+
+[src$="confighistory.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjIuNyAxOWwtOS4xLTkuMWMuOS0yLjMuNC01LTEuNS02LjktMi0yLTUtMi40LTcuNC0xLjNMOSA2IDYgOSAxLjYgNC43Qy40IDcuMS45IDEwLjEgMi45IDEyLjFjMS45IDEuOSA0LjYgMi40IDYuOSAxLjVsOS4xIDkuMWMuNC40IDEgLjQgMS40IDBsMi4zLTIuM2MuNS0uNC41LTEuMS4xLTEuNHoiLz48L3N2Zz4=)
+}
+
+[src$="domain.png"] {
+    padding-left: 57.6px !important;
+    padding-top: 57.6px !important;
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTE4IDE1aC0ydjJoMm0wLTZoLTJ2MmgybTIgNmgtOHYtMmgydi0yaC0ydi0yaDJ2LTJoLTJWOWg4TTEwIDdIOFY1aDJtMCA2SDhWOWgybTAgNkg4di0yaDJtMCA2SDh2LTJoMk02IDdINFY1aDJtMCA2SDRWOWgybTAgNkg0di0yaDJtMCA2SDR2LTJoMm02LTEwVjNIMnYxOGgyMFY3SDEyeiIvPjwvc3ZnPg==)
+}
+
+#description-link img,
+.icon-gear,
+[src$="gear.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMyAxNy4yNVYyMWgzLjc1TDE3LjgxIDkuOTRsLTMuNzUtMy43NUwzIDE3LjI1ek0yMC43MSA3LjA0YS45OTYuOTk2IDAgMCAwIDAtMS40MWwtMi4zNC0yLjM0YS45OTYuOTk2IDAgMCAwLTEuNDEgMGwtMS44MyAxLjgzIDMuNzUgMy43NSAxLjgzLTEuODN6Ii8+PC9zdmc+)
+}
+
+.icon-go-next {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=)
+}
+
+[src$="diskusage48.png"] {
+    padding-left: 57.6px !important;
+    padding-top: 57.6px !important;
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMiAyMGgyMHYtNEgydjR6bTItM2gydjJINHYtMnpNMiA0djRoMjBWNEgyem00IDNINFY1aDJ2MnptLTQgN2gyMHYtNEgydjR6bTItM2gydjJINHYtMnoiLz48L3N2Zz4=)
+}
+
+[src$="git-32x32.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTIuNiAxMC41OUw4LjM4IDQuOGwxLjY5IDEuN2MtLjI0Ljg1LjE1IDEuNzguOTMgMi4yM3Y1LjU0Yy0uNi4zNC0xIC45OS0xIDEuNzNhMiAyIDAgMCAwIDIgMiAyIDIgMCAwIDAgMi0yYzAtLjc0LS40LTEuMzktMS0xLjczVjkuNDFsMi4wNyAyLjA5Yy0uMDcuMTUtLjA3LjMyLS4wNy41YTIgMiAwIDAgMCAyIDIgMiAyIDAgMCAwIDItMiAyIDIgMCAwIDAtMi0yYy0uMTggMC0uMzUgMC0uNS4wN0wxMy45MyA3LjVhMS45OCAxLjk4IDAgMCAwLTEuMTUtMi4zNGMtLjQzLS4xNi0uODgtLjItMS4yOC0uMDlMOS44IDMuMzhsLjc5LS43OGMuNzgtLjc5IDIuMDQtLjc5IDIuODIgMGw3Ljk5IDcuOTljLjc5Ljc4Ljc5IDIuMDQgMCAyLjgybC03Ljk5IDcuOTljLS43OC43OS0yLjA0Ljc5LTIuODIgMEwyLjYgMTMuNDFjLS43OS0uNzgtLjc5LTIuMDQgMC0yLjgyeiIvPjwvc3ZnPg==)
+}
+
+[src$="logov3.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgMkExMCAxMCAwIDAgMCAyIDEyYzAgNC40MiAyLjg3IDguMTcgNi44NCA5LjUuNS4wOC42Ni0uMjMuNjYtLjV2LTEuNjljLTIuNzcuNi0zLjM2LTEuMzQtMy4zNi0xLjM0LS40Ni0xLjE2LTEuMTEtMS40Ny0xLjExLTEuNDctLjkxLS42Mi4wNy0uNi4wNy0uNiAxIC4wNyAxLjUzIDEuMDMgMS41MyAxLjAzLjg3IDEuNTIgMi4zNCAxLjA3IDIuOTEuODMuMDktLjY1LjM1LTEuMDkuNjMtMS4zNC0yLjIyLS4yNS00LjU1LTEuMTEtNC41NS00LjkyIDAtMS4xMS4zOC0yIDEuMDMtMi43MS0uMS0uMjUtLjQ1LTEuMjkuMS0yLjY0IDAgMCAuODQtLjI3IDIuNzUgMS4wMi43OS0uMjIgMS42NS0uMzMgMi41LS4zMy44NSAwIDEuNzEuMTEgMi41LjMzIDEuOTEtMS4yOSAyLjc1LTEuMDIgMi43NS0xLjAyLjU1IDEuMzUuMiAyLjM5LjEgMi42NC42NS43MSAxLjAzIDEuNiAxLjAzIDIuNzEgMCAzLjgyLTIuMzQgNC42Ni00LjU3IDQuOTEuMzYuMzEuNjkuOTIuNjkgMS44NVYyMWMwIC4yNy4xNi41OS42Ny41QzE5LjE0IDIwLjE2IDIyIDE2LjQyIDIyIDEyQTEwIDEwIDAgMCAwIDEyIDJ6Ii8+PC9zdmc+)
+}
+
+[src$="findbugs-24x24.png"],
+[src$="findbugs-48x48.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOUU5RTlFIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDhoLTIuODFhNS45ODUgNS45ODUgMCAwIDAtMS44Mi0xLjk2TDE3IDQuNDEgMTUuNTkgM2wtMi4xNyAyLjE3QzEyLjk2IDUuMDYgMTIuNDkgNSAxMiA1Yy0uNDkgMC0uOTYuMDYtMS40MS4xN0w4LjQxIDMgNyA0LjQxbDEuNjIgMS42M0M3Ljg4IDYuNTUgNy4yNiA3LjIyIDYuODEgOEg0djJoMi4wOWMtLjA1LjMzLS4wOS42Ni0uMDkgMXYxSDR2MmgydjFjMCAuMzQuMDQuNjcuMDkgMUg0djJoMi44MWMxLjA0IDEuNzkgMi45NyAzIDUuMTkgM3M0LjE1LTEuMjEgNS4xOS0zSDIwdi0yaC0yLjA5Yy4wNS0uMzMuMDktLjY2LjA5LTF2LTFoMnYtMmgtMnYtMWMwLS4zNC0uMDQtLjY3LS4wOS0xSDIwVjh6bS02IDhoLTR2LTJoNHYyem0wLTRoLTR2LTJoNHYyeiIvPjwvc3ZnPg==)
+}
+
+[src$="dry-24x24.png"],
+[src$="dry-48x48.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOUU5RTlFIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEwIDNINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmg1djJoMlYxaC0ydjJ6bTAgMTVINWw1LTZ2NnptOS0xNWgtNXYyaDV2MTNsLTUtNnY5aDVjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnoiLz48L3N2Zz4=)
+}
+
+[src$="checkstyle-24x24.png"],
+[src$="checkstyle-48x48.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOUU5RTlFIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE0LjQgNkwxNCA0SDV2MTdoMnYtN2g1LjZsLjQgMmg3VjZ6Ii8+PC9zdmc+)
+}
+
+[src$="pmd-24x24.png"],
+[src$="pmd-48x48.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOUU5RTlFIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDJINGMtMS4xIDAtMS45OS45LTEuOTkgMkwyIDIybDQtNGgxNGMxLjEgMCAyLS45IDItMlY0YzAtMS4xLS45LTItMi0yem0tNyAxMmgtMnYtMmgydjJ6bTAtNGgtMlY2aDJ2NHoiLz48L3N2Zz4=)
+}
+
+[src$="tasks-24x24.png"],
+[src$="tasks-48x48.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOUU5RTlFIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE5IDNoLTQuMThDMTQuNCAxLjg0IDEzLjMgMSAxMiAxYy0xLjMgMC0yLjQuODQtMi44MiAySDVjLTEuMSAwLTIgLjktMiAydjE0YzAgMS4xLjkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnptLTYgMTVoLTJ2LTJoMnYyem0wLTRoLTJWOGgydjZ6bS0xLTljLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTEgMSAuNDUgMSAxLS40NSAxLTEgMXoiLz48L3N2Zz4=)
+}
+
+[src$="analysis-24x24.png"],
+[src$="analysis-48x48.png"],
+[src$="go-24x24.png"],
+[src$="go-48x48.png"],
+[src$="idea-24x24.png"],
+[src$="idea-48x48.png"],
+[src$="java-24x24.png"],
+[src$="java-48x48.png"],
+[src$="resharper-24x24.png"],
+[src$="resharper-48x48.png"],
+[src$="scala-24x24.png"],
+[src$="scala-48x48.png"],
+[src$="warnings-24x24.png"],
+[src$="warnings-48x48.png"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==)
+}
+
+#description-link img.icon48x48,
+#description-link img.icon-xlg,
+#description-link img[src*="48x"],
+.icon-aborted-anime.icon48x48,
+.icon-aborted-anime.icon-xlg,
+.icon-aborted-anime[src*="48x"],
+.icon-blue-anime.icon48x48,
+.icon-blue-anime.icon-xlg,
+.icon-blue-anime[src*="48x"],
+.icon-clipboard.icon48x48,
+.icon-clipboard.icon-xlg,
+.icon-clipboard[src*="48x"],
+.icon-clock-anime.icon48x48,
+.icon-clock-anime.icon-xlg,
+.icon-clock-anime[src*="48x"],
+.icon-clock.icon48x48,
+.icon-clock.icon-xlg,
+.icon-clock[src*="48x"],
+.icon-collapse.icon48x48,
+.icon-collapse.icon-xlg,
+.icon-collapse[src*="48x"],
+.icon-computer-x.icon48x48,
+.icon-computer-x.icon-xlg,
+.icon-computer-x[src*="48x"],
+.icon-computer.icon48x48,
+.icon-computer.icon-xlg,
+.icon-computer[src*="48x"],
+.icon-document.icon48x48,
+.icon-document.icon-xlg,
+.icon-document[src*="48x"],
+.icon-edit-delete.icon48x48,
+.icon-edit-delete.icon-xlg,
+.icon-edit-delete[src*="48x"],
+.icon-expand.icon48x48,
+.icon-expand.icon-xlg,
+.icon-expand[src*="48x"],
+.icon-fingerprint.icon48x48,
+.icon-fingerprint.icon-xlg,
+.icon-fingerprint[src*="48x"],
+.icon-folder-delete.icon48x48,
+.icon-folder-delete.icon-xlg,
+.icon-folder-delete[src*="48x"],
+.icon-folder.icon48x48,
+.icon-folder.icon-xlg,
+.icon-folder[src*="48x"],
+.icon-gear2.icon48x48,
+.icon-gear2.icon-xlg,
+.icon-gear2[src*="48x"],
+.icon-gear.icon48x48,
+.icon-gear.icon-xlg,
+.icon-gear[src*="48x"],
+.icon-go-next.icon48x48,
+.icon-go-next.icon-xlg,
+.icon-go-next[src*="48x"],
+.icon-graph.icon48x48,
+.icon-graph.icon-xlg,
+.icon-graph[src*="48x"],
+.icon-grey-anime.icon48x48,
+.icon-grey-anime.icon-xlg,
+.icon-grey-anime[src*="48x"],
+.icon-health-00to19.icon48x48,
+.icon-health-00to19.icon-xlg,
+.icon-health-00to19[src*="48x"],
+.icon-health-20to39.icon48x48,
+.icon-health-20to39.icon-xlg,
+.icon-health-20to39[src*="48x"],
+.icon-health-40to59.icon48x48,
+.icon-health-40to59.icon-xlg,
+.icon-health-40to59[src*="48x"],
+.icon-health-60to79.icon48x48,
+.icon-health-60to79.icon-xlg,
+.icon-health-60to79[src*="48x"],
+.icon-health-80plus.icon48x48,
+.icon-health-80plus.icon-xlg,
+.icon-health-80plus[src*="48x"],
+.icon-help.icon48x48,
+.icon-help.icon-xlg,
+.icon-help[src*="48x"],
+.icon-lock.icon48x48,
+.icon-lock.icon-xlg,
+.icon-lock[src*="48x"],
+.icon-monitor.icon48x48,
+.icon-monitor.icon-xlg,
+.icon-monitor[src*="48x"],
+.icon-network.icon48x48,
+.icon-network.icon-xlg,
+.icon-network[src*="48x"],
+.icon-new-computer.icon48x48,
+.icon-new-computer.icon-xlg,
+.icon-new-computer[src*="48x"],
+.icon-new-package.icon48x48,
+.icon-new-package.icon-xlg,
+.icon-new-package[src*="48x"],
+.icon-next.icon48x48,
+.icon-next.icon-xlg,
+.icon-next[src*="48x"],
+.icon-nobuilt-anime.icon48x48,
+.icon-nobuilt-anime.icon-xlg,
+.icon-nobuilt-anime[src*="48x"],
+.icon-notepad.icon48x48,
+.icon-notepad.icon-xlg,
+.icon-notepad[src*="48x"],
+.icon-package.icon48x48,
+.icon-package.icon-xlg,
+.icon-package[src*="48x"],
+.icon-plugin.icon48x48,
+.icon-plugin.icon-xlg,
+.icon-plugin[src*="48x"],
+.icon-previous.icon48x48,
+.icon-previous.icon-xlg,
+.icon-previous[src*="48x"],
+.icon-red-anime.icon48x48,
+.icon-red-anime.icon-xlg,
+.icon-red-anime[src*="48x"],
+.icon-refresh.icon48x48,
+.icon-refresh.icon-xlg,
+.icon-refresh[src*="48x"],
+.icon-save.icon48x48,
+.icon-save.icon-xlg,
+.icon-save[src*="48x"],
+.icon-search.icon48x48,
+.icon-search.icon-xlg,
+.icon-search[src*="48x"],
+.icon-secure.icon48x48,
+.icon-secure.icon-xlg,
+.icon-secure[src*="48x"],
+.icon-setting.icon48x48,
+.icon-setting.icon-xlg,
+.icon-setting[src*="48x"],
+.icon-stop.icon48x48,
+.icon-stop.icon-xlg,
+.icon-stop[src*="48x"],
+.icon-system-log-out.icon48x48,
+.icon-system-log-out.icon-xlg,
+.icon-system-log-out[src*="48x"],
+.icon-terminal.icon48x48,
+.icon-terminal.icon-xlg,
+.icon-terminal[src*="48x"],
+.icon-text.icon48x48,
+.icon-text.icon-xlg,
+.icon-text[src*="48x"],
+.icon-up.icon48x48,
+.icon-up.icon-xlg,
+.icon-up[src*="48x"],
+.icon-user.icon48x48,
+.icon-user.icon-xlg,
+.icon-user[src*="48x"],
+.icon-yellow-anime.icon48x48,
+.icon-yellow-anime.icon-xlg,
+.icon-yellow-anime[src*="48x"],
+[src$="/atom.gif"].icon48x48,
+[src$="/atom.gif"].icon-xlg,
+[src$="/atom.gif"][src*="48x"],
+[src$="/directory16.png"].icon48x48,
+[src$="/directory16.png"].icon-xlg,
+[src$="/directory16.png"][src*="48x"],
+[src$="/move.png"].icon48x48,
+[src$="/move.png"].icon-xlg,
+[src$="/move.png"][src*="48x"],
+[src$="/save.png"].icon48x48,
+[src$="/save.png"].icon-xlg,
+[src$="/save.png"][src*="48x"],
+[src$="aborted.png"].icon48x48,
+[src$="aborted.png"].icon-xlg,
+[src$="aborted.png"][src*="48x"],
+[src$="analysis-24x24.png"].icon48x48,
+[src$="analysis-24x24.png"].icon-xlg,
+[src$="analysis-24x24.png"][src*="48x"],
+[src$="analysis-48x48.png"].icon48x48,
+[src$="analysis-48x48.png"].icon-xlg,
+[src$="analysis-48x48.png"][src*="48x"],
+[src$="blue.png"].icon48x48,
+[src$="blue.png"].icon-xlg,
+[src$="blue.png"][src*="48x"],
+[src$="blue_anime.gif"].icon48x48,
+[src$="blue_anime.gif"].icon-xlg,
+[src$="blue_anime.gif"][src*="48x"],
+[src$="checkstyle-24x24.png"].icon48x48,
+[src$="checkstyle-24x24.png"].icon-xlg,
+[src$="checkstyle-24x24.png"][src*="48x"],
+[src$="checkstyle-48x48.png"].icon48x48,
+[src$="checkstyle-48x48.png"].icon-xlg,
+[src$="checkstyle-48x48.png"][src*="48x"],
+[src$="clipboard.png"].icon48x48,
+[src$="clipboard.png"].icon-xlg,
+[src$="clipboard.png"][src*="48x"],
+[src$="clock.png"].icon48x48,
+[src$="clock.png"].icon-xlg,
+[src$="clock.png"][src*="48x"],
+[src$="computer.png"].icon48x48,
+[src$="computer.png"].icon-xlg,
+[src$="computer.png"][src*="48x"],
+[src$="confighistory.png"].icon48x48,
+[src$="confighistory.png"].icon-xlg,
+[src$="confighistory.png"][src*="48x"],
+[src$="credentials.png"].icon48x48,
+[src$="credentials.png"].icon-xlg,
+[src$="credentials.png"][src*="48x"],
+[src$="disabled.png"].icon48x48,
+[src$="disabled.png"].icon-xlg,
+[src$="disabled.png"][src*="48x"],
+[src$="diskusage48.png"].icon48x48,
+[src$="diskusage48.png"].icon-xlg,
+[src$="diskusage48.png"][src*="48x"],
+[src$="domain.png"].icon48x48,
+[src$="domain.png"].icon-xlg,
+[src$="domain.png"][src*="48x"],
+[src$="dry-24x24.png"].icon48x48,
+[src$="dry-24x24.png"].icon-xlg,
+[src$="dry-24x24.png"][src*="48x"],
+[src$="dry-48x48.png"].icon48x48,
+[src$="dry-48x48.png"].icon-xlg,
+[src$="dry-48x48.png"][src*="48x"],
+[src$="edit-delete.png"].icon48x48,
+[src$="edit-delete.png"].icon-xlg,
+[src$="edit-delete.png"][src*="48x"],
+[src$="findbugs-24x24.png"].icon48x48,
+[src$="findbugs-24x24.png"].icon-xlg,
+[src$="findbugs-24x24.png"][src*="48x"],
+[src$="findbugs-48x48.png"].icon48x48,
+[src$="findbugs-48x48.png"].icon-xlg,
+[src$="findbugs-48x48.png"][src*="48x"],
+[src$="fingerprint.png"].icon48x48,
+[src$="fingerprint.png"].icon-xlg,
+[src$="fingerprint.png"][src*="48x"],
+[src$="folder.png"].icon48x48,
+[src$="folder.png"].icon-xlg,
+[src$="folder.png"][src*="48x"],
+[src$="gear2.png"].icon48x48,
+[src$="gear2.png"].icon-xlg,
+[src$="gear2.png"][src*="48x"],
+[src$="gear.png"].icon48x48,
+[src$="gear.png"].icon-xlg,
+[src$="gear.png"][src*="48x"],
+[src$="git-32x32.png"].icon48x48,
+[src$="git-32x32.png"].icon-xlg,
+[src$="git-32x32.png"][src*="48x"],
+[src$="go-24x24.png"].icon48x48,
+[src$="go-24x24.png"].icon-xlg,
+[src$="go-24x24.png"][src*="48x"],
+[src$="go-48x48.png"].icon48x48,
+[src$="go-48x48.png"].icon-xlg,
+[src$="go-48x48.png"][src*="48x"],
+[src$="graph.png"].icon48x48,
+[src$="graph.png"].icon-xlg,
+[src$="graph.png"][src*="48x"],
+[src$="grey.png"].icon48x48,
+[src$="grey.png"].icon-xlg,
+[src$="grey.png"][src*="48x"],
+[src$="grey_anime.gif"].icon48x48,
+[src$="grey_anime.gif"].icon-xlg,
+[src$="grey_anime.gif"][src*="48x"],
+[src$="help.png"].icon48x48,
+[src$="help.png"].icon-xlg,
+[src$="help.png"][src*="48x"],
+[src$="idea-24x24.png"].icon48x48,
+[src$="idea-24x24.png"].icon-xlg,
+[src$="idea-24x24.png"][src*="48x"],
+[src$="idea-48x48.png"].icon48x48,
+[src$="idea-48x48.png"].icon-xlg,
+[src$="idea-48x48.png"][src*="48x"],
+[src$="java-24x24.png"].icon48x48,
+[src$="java-24x24.png"].icon-xlg,
+[src$="java-24x24.png"][src*="48x"],
+[src$="java-48x48.png"].icon48x48,
+[src$="java-48x48.png"].icon-xlg,
+[src$="java-48x48.png"][src*="48x"],
+[src$="logov3.png"].icon48x48,
+[src$="logov3.png"].icon-xlg,
+[src$="logov3.png"][src*="48x"],
+[src$="monitor.png"].icon48x48,
+[src$="monitor.png"].icon-xlg,
+[src$="monitor.png"][src*="48x"],
+[src$="network.png"].icon48x48,
+[src$="network.png"].icon-xlg,
+[src$="network.png"][src*="48x"],
+[src$="new-package.png"].icon48x48,
+[src$="new-package.png"].icon-xlg,
+[src$="new-package.png"][src*="48x"],
+[src$="nobuilt.png"].icon48x48,
+[src$="nobuilt.png"].icon-xlg,
+[src$="nobuilt.png"][src*="48x"],
+[src$="notepad.png"].icon48x48,
+[src$="notepad.png"].icon-xlg,
+[src$="notepad.png"][src*="48x"],
+[src$="package.gif"].icon48x48,
+[src$="package.gif"].icon-xlg,
+[src$="package.gif"][src*="48x"],
+[src$="plugin.png"].icon48x48,
+[src$="plugin.png"].icon-xlg,
+[src$="plugin.png"][src*="48x"],
+[src$="pmd-24x24.png"].icon48x48,
+[src$="pmd-24x24.png"].icon-xlg,
+[src$="pmd-24x24.png"][src*="48x"],
+[src$="pmd-48x48.png"].icon48x48,
+[src$="pmd-48x48.png"].icon-xlg,
+[src$="pmd-48x48.png"][src*="48x"],
+[src$="red.png"].icon48x48,
+[src$="red.png"].icon-xlg,
+[src$="red.png"][src*="48x"],
+[src$="red_anime.gif"].icon48x48,
+[src$="red_anime.gif"].icon-xlg,
+[src$="red_anime.gif"][src*="48x"],
+[src$="refresh.png"].icon48x48,
+[src$="refresh.png"].icon-xlg,
+[src$="refresh.png"][src*="48x"],
+[src$="resharper-24x24.png"].icon48x48,
+[src$="resharper-24x24.png"].icon-xlg,
+[src$="resharper-24x24.png"][src*="48x"],
+[src$="resharper-48x48.png"].icon48x48,
+[src$="resharper-48x48.png"].icon-xlg,
+[src$="resharper-48x48.png"][src*="48x"],
+[src$="scala-24x24.png"].icon48x48,
+[src$="scala-24x24.png"].icon-xlg,
+[src$="scala-24x24.png"][src*="48x"],
+[src$="scala-48x48.png"].icon48x48,
+[src$="scala-48x48.png"].icon-xlg,
+[src$="scala-48x48.png"][src*="48x"],
+[src$="search.png"].icon48x48,
+[src$="search.png"].icon-xlg,
+[src$="search.png"][src*="48x"],
+[src$="secure.png"].icon48x48,
+[src$="secure.png"].icon-xlg,
+[src$="secure.png"][src*="48x"],
+[src$="setting.png"].icon48x48,
+[src$="setting.png"].icon-xlg,
+[src$="setting.png"][src*="48x"],
+[src$="system-log-out.png"].icon48x48,
+[src$="system-log-out.png"].icon-xlg,
+[src$="system-log-out.png"][src*="48x"],
+[src$="tasks-24x24.png"].icon48x48,
+[src$="tasks-24x24.png"].icon-xlg,
+[src$="tasks-24x24.png"][src*="48x"],
+[src$="tasks-48x48.png"].icon48x48,
+[src$="tasks-48x48.png"].icon-xlg,
+[src$="tasks-48x48.png"][src*="48x"],
+[src$="terminal.png"].icon48x48,
+[src$="terminal.png"].icon-xlg,
+[src$="terminal.png"][src*="48x"],
+[src$="user.png"].icon48x48,
+[src$="user.png"].icon-xlg,
+[src$="user.png"][src*="48x"],
+[src$="warnings-24x24.png"].icon48x48,
+[src$="warnings-24x24.png"].icon-xlg,
+[src$="warnings-24x24.png"][src*="48x"],
+[src$="warnings-48x48.png"].icon48x48,
+[src$="warnings-48x48.png"].icon-xlg,
+[src$="warnings-48x48.png"][src*="48x"],
+[src$="yellow.png"].icon48x48,
+[src$="yellow.png"].icon-xlg,
+[src$="yellow.png"][src*="48x"],
+[src$="yellow_anime.gif"].icon48x48,
+[src$="yellow_anime.gif"].icon-xlg,
+[src$="yellow_anime.gif"][src*="48x"] {
+    padding-left: 57.6px !important;
+    padding-top: 57.6px !important;
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important
+}
+
+#description-link img.icon32x32,
+#description-link img.icon-lg,
+#description-link img[src*="32x"],
+#description-link img[style*="width: 32p"],
+#description-link img[width="32"],
+.icon-aborted-anime.icon32x32,
+.icon-aborted-anime.icon-lg,
+.icon-aborted-anime[src*="32x"],
+.icon-aborted-anime[style*="width: 32p"],
+.icon-aborted-anime[width="32"],
+.icon-blue-anime.icon32x32,
+.icon-blue-anime.icon-lg,
+.icon-blue-anime[src*="32x"],
+.icon-blue-anime[style*="width: 32p"],
+.icon-blue-anime[width="32"],
+.icon-clipboard.icon32x32,
+.icon-clipboard.icon-lg,
+.icon-clipboard[src*="32x"],
+.icon-clipboard[style*="width: 32p"],
+.icon-clipboard[width="32"],
+.icon-clock-anime.icon32x32,
+.icon-clock-anime.icon-lg,
+.icon-clock-anime[src*="32x"],
+.icon-clock-anime[style*="width: 32p"],
+.icon-clock-anime[width="32"],
+.icon-clock.icon32x32,
+.icon-clock.icon-lg,
+.icon-clock[src*="32x"],
+.icon-clock[style*="width: 32p"],
+.icon-clock[width="32"],
+.icon-collapse.icon32x32,
+.icon-collapse.icon-lg,
+.icon-collapse[src*="32x"],
+.icon-collapse[style*="width: 32p"],
+.icon-collapse[width="32"],
+.icon-computer-x.icon32x32,
+.icon-computer-x.icon-lg,
+.icon-computer-x[src*="32x"],
+.icon-computer-x[style*="width: 32p"],
+.icon-computer-x[width="32"],
+.icon-computer.icon32x32,
+.icon-computer.icon-lg,
+.icon-computer[src*="32x"],
+.icon-computer[style*="width: 32p"],
+.icon-computer[width="32"],
+.icon-document.icon32x32,
+.icon-document.icon-lg,
+.icon-document[src*="32x"],
+.icon-document[style*="width: 32p"],
+.icon-document[width="32"],
+.icon-edit-delete.icon32x32,
+.icon-edit-delete.icon-lg,
+.icon-edit-delete[src*="32x"],
+.icon-edit-delete[style*="width: 32p"],
+.icon-edit-delete[width="32"],
+.icon-expand.icon32x32,
+.icon-expand.icon-lg,
+.icon-expand[src*="32x"],
+.icon-expand[style*="width: 32p"],
+.icon-expand[width="32"],
+.icon-fingerprint.icon32x32,
+.icon-fingerprint.icon-lg,
+.icon-fingerprint[src*="32x"],
+.icon-fingerprint[style*="width: 32p"],
+.icon-fingerprint[width="32"],
+.icon-folder-delete.icon32x32,
+.icon-folder-delete.icon-lg,
+.icon-folder-delete[src*="32x"],
+.icon-folder-delete[style*="width: 32p"],
+.icon-folder-delete[width="32"],
+.icon-folder.icon32x32,
+.icon-folder.icon-lg,
+.icon-folder[src*="32x"],
+.icon-folder[style*="width: 32p"],
+.icon-folder[width="32"],
+.icon-gear2.icon32x32,
+.icon-gear2.icon-lg,
+.icon-gear2[src*="32x"],
+.icon-gear2[style*="width: 32p"],
+.icon-gear2[width="32"],
+.icon-gear.icon32x32,
+.icon-gear.icon-lg,
+.icon-gear[src*="32x"],
+.icon-gear[style*="width: 32p"],
+.icon-gear[width="32"],
+.icon-go-next.icon32x32,
+.icon-go-next.icon-lg,
+.icon-go-next[src*="32x"],
+.icon-go-next[style*="width: 32p"],
+.icon-go-next[width="32"],
+.icon-graph.icon32x32,
+.icon-graph.icon-lg,
+.icon-graph[src*="32x"],
+.icon-graph[style*="width: 32p"],
+.icon-graph[width="32"],
+.icon-grey-anime.icon32x32,
+.icon-grey-anime.icon-lg,
+.icon-grey-anime[src*="32x"],
+.icon-grey-anime[style*="width: 32p"],
+.icon-grey-anime[width="32"],
+.icon-health-00to19.icon32x32,
+.icon-health-00to19.icon-lg,
+.icon-health-00to19[src*="32x"],
+.icon-health-00to19[style*="width: 32p"],
+.icon-health-00to19[width="32"],
+.icon-health-20to39.icon32x32,
+.icon-health-20to39.icon-lg,
+.icon-health-20to39[src*="32x"],
+.icon-health-20to39[style*="width: 32p"],
+.icon-health-20to39[width="32"],
+.icon-health-40to59.icon32x32,
+.icon-health-40to59.icon-lg,
+.icon-health-40to59[src*="32x"],
+.icon-health-40to59[style*="width: 32p"],
+.icon-health-40to59[width="32"],
+.icon-health-60to79.icon32x32,
+.icon-health-60to79.icon-lg,
+.icon-health-60to79[src*="32x"],
+.icon-health-60to79[style*="width: 32p"],
+.icon-health-60to79[width="32"],
+.icon-health-80plus.icon32x32,
+.icon-health-80plus.icon-lg,
+.icon-health-80plus[src*="32x"],
+.icon-health-80plus[style*="width: 32p"],
+.icon-health-80plus[width="32"],
+.icon-help.icon32x32,
+.icon-help.icon-lg,
+.icon-help[src*="32x"],
+.icon-help[style*="width: 32p"],
+.icon-help[width="32"],
+.icon-lock.icon32x32,
+.icon-lock.icon-lg,
+.icon-lock[src*="32x"],
+.icon-lock[style*="width: 32p"],
+.icon-lock[width="32"],
+.icon-monitor.icon32x32,
+.icon-monitor.icon-lg,
+.icon-monitor[src*="32x"],
+.icon-monitor[style*="width: 32p"],
+.icon-monitor[width="32"],
+.icon-network.icon32x32,
+.icon-network.icon-lg,
+.icon-network[src*="32x"],
+.icon-network[style*="width: 32p"],
+.icon-network[width="32"],
+.icon-new-computer.icon32x32,
+.icon-new-computer.icon-lg,
+.icon-new-computer[src*="32x"],
+.icon-new-computer[style*="width: 32p"],
+.icon-new-computer[width="32"],
+.icon-new-package.icon32x32,
+.icon-new-package.icon-lg,
+.icon-new-package[src*="32x"],
+.icon-new-package[style*="width: 32p"],
+.icon-new-package[width="32"],
+.icon-next.icon32x32,
+.icon-next.icon-lg,
+.icon-next[src*="32x"],
+.icon-next[style*="width: 32p"],
+.icon-next[width="32"],
+.icon-nobuilt-anime.icon32x32,
+.icon-nobuilt-anime.icon-lg,
+.icon-nobuilt-anime[src*="32x"],
+.icon-nobuilt-anime[style*="width: 32p"],
+.icon-nobuilt-anime[width="32"],
+.icon-notepad.icon32x32,
+.icon-notepad.icon-lg,
+.icon-notepad[src*="32x"],
+.icon-notepad[style*="width: 32p"],
+.icon-notepad[width="32"],
+.icon-package.icon32x32,
+.icon-package.icon-lg,
+.icon-package[src*="32x"],
+.icon-package[style*="width: 32p"],
+.icon-package[width="32"],
+.icon-plugin.icon32x32,
+.icon-plugin.icon-lg,
+.icon-plugin[src*="32x"],
+.icon-plugin[style*="width: 32p"],
+.icon-plugin[width="32"],
+.icon-previous.icon32x32,
+.icon-previous.icon-lg,
+.icon-previous[src*="32x"],
+.icon-previous[style*="width: 32p"],
+.icon-previous[width="32"],
+.icon-red-anime.icon32x32,
+.icon-red-anime.icon-lg,
+.icon-red-anime[src*="32x"],
+.icon-red-anime[style*="width: 32p"],
+.icon-red-anime[width="32"],
+.icon-refresh.icon32x32,
+.icon-refresh.icon-lg,
+.icon-refresh[src*="32x"],
+.icon-refresh[style*="width: 32p"],
+.icon-refresh[width="32"],
+.icon-save.icon32x32,
+.icon-save.icon-lg,
+.icon-save[src*="32x"],
+.icon-save[style*="width: 32p"],
+.icon-save[width="32"],
+.icon-search.icon32x32,
+.icon-search.icon-lg,
+.icon-search[src*="32x"],
+.icon-search[style*="width: 32p"],
+.icon-search[width="32"],
+.icon-secure.icon32x32,
+.icon-secure.icon-lg,
+.icon-secure[src*="32x"],
+.icon-secure[style*="width: 32p"],
+.icon-secure[width="32"],
+.icon-setting.icon32x32,
+.icon-setting.icon-lg,
+.icon-setting[src*="32x"],
+.icon-setting[style*="width: 32p"],
+.icon-setting[width="32"],
+.icon-stop.icon32x32,
+.icon-stop.icon-lg,
+.icon-stop[src*="32x"],
+.icon-stop[style*="width: 32p"],
+.icon-stop[width="32"],
+.icon-system-log-out.icon32x32,
+.icon-system-log-out.icon-lg,
+.icon-system-log-out[src*="32x"],
+.icon-system-log-out[style*="width: 32p"],
+.icon-system-log-out[width="32"],
+.icon-terminal.icon32x32,
+.icon-terminal.icon-lg,
+.icon-terminal[src*="32x"],
+.icon-terminal[style*="width: 32p"],
+.icon-terminal[width="32"],
+.icon-text.icon32x32,
+.icon-text.icon-lg,
+.icon-text[src*="32x"],
+.icon-text[style*="width: 32p"],
+.icon-text[width="32"],
+.icon-up.icon32x32,
+.icon-up.icon-lg,
+.icon-up[src*="32x"],
+.icon-up[style*="width: 32p"],
+.icon-up[width="32"],
+.icon-user.icon32x32,
+.icon-user.icon-lg,
+.icon-user[src*="32x"],
+.icon-user[style*="width: 32p"],
+.icon-user[width="32"],
+.icon-yellow-anime.icon32x32,
+.icon-yellow-anime.icon-lg,
+.icon-yellow-anime[src*="32x"],
+.icon-yellow-anime[style*="width: 32p"],
+.icon-yellow-anime[width="32"],
+[src$="/atom.gif"].icon32x32,
+[src$="/atom.gif"].icon-lg,
+[src$="/atom.gif"][src*="32x"],
+[src$="/atom.gif"][style*="width: 32p"],
+[src$="/atom.gif"][width="32"],
+[src$="/directory16.png"].icon32x32,
+[src$="/directory16.png"].icon-lg,
+[src$="/directory16.png"][src*="32x"],
+[src$="/directory16.png"][style*="width: 32p"],
+[src$="/directory16.png"][width="32"],
+[src$="/move.png"].icon32x32,
+[src$="/move.png"].icon-lg,
+[src$="/move.png"][src*="32x"],
+[src$="/move.png"][style*="width: 32p"],
+[src$="/move.png"][width="32"],
+[src$="/save.png"].icon32x32,
+[src$="/save.png"].icon-lg,
+[src$="/save.png"][src*="32x"],
+[src$="/save.png"][style*="width: 32p"],
+[src$="/save.png"][width="32"],
+[src$="aborted.png"].icon32x32,
+[src$="aborted.png"].icon-lg,
+[src$="aborted.png"][src*="32x"],
+[src$="aborted.png"][style*="width: 32p"],
+[src$="aborted.png"][width="32"],
+[src$="analysis-24x24.png"].icon32x32,
+[src$="analysis-24x24.png"].icon-lg,
+[src$="analysis-24x24.png"][src*="32x"],
+[src$="analysis-24x24.png"][style*="width: 32p"],
+[src$="analysis-24x24.png"][width="32"],
+[src$="analysis-48x48.png"].icon32x32,
+[src$="analysis-48x48.png"].icon-lg,
+[src$="analysis-48x48.png"][src*="32x"],
+[src$="analysis-48x48.png"][style*="width: 32p"],
+[src$="analysis-48x48.png"][width="32"],
+[src$="blue.png"].icon32x32,
+[src$="blue.png"].icon-lg,
+[src$="blue.png"][src*="32x"],
+[src$="blue.png"][style*="width: 32p"],
+[src$="blue.png"][width="32"],
+[src$="blue_anime.gif"].icon32x32,
+[src$="blue_anime.gif"].icon-lg,
+[src$="blue_anime.gif"][src*="32x"],
+[src$="blue_anime.gif"][style*="width: 32p"],
+[src$="blue_anime.gif"][width="32"],
+[src$="checkstyle-24x24.png"].icon32x32,
+[src$="checkstyle-24x24.png"].icon-lg,
+[src$="checkstyle-24x24.png"][src*="32x"],
+[src$="checkstyle-24x24.png"][style*="width: 32p"],
+[src$="checkstyle-24x24.png"][width="32"],
+[src$="checkstyle-48x48.png"].icon32x32,
+[src$="checkstyle-48x48.png"].icon-lg,
+[src$="checkstyle-48x48.png"][src*="32x"],
+[src$="checkstyle-48x48.png"][style*="width: 32p"],
+[src$="checkstyle-48x48.png"][width="32"],
+[src$="clipboard.png"].icon32x32,
+[src$="clipboard.png"].icon-lg,
+[src$="clipboard.png"][src*="32x"],
+[src$="clipboard.png"][style*="width: 32p"],
+[src$="clipboard.png"][width="32"],
+[src$="clock.png"].icon32x32,
+[src$="clock.png"].icon-lg,
+[src$="clock.png"][src*="32x"],
+[src$="clock.png"][style*="width: 32p"],
+[src$="clock.png"][width="32"],
+[src$="computer.png"].icon32x32,
+[src$="computer.png"].icon-lg,
+[src$="computer.png"][src*="32x"],
+[src$="computer.png"][style*="width: 32p"],
+[src$="computer.png"][width="32"],
+[src$="confighistory.png"].icon32x32,
+[src$="confighistory.png"].icon-lg,
+[src$="confighistory.png"][src*="32x"],
+[src$="confighistory.png"][style*="width: 32p"],
+[src$="confighistory.png"][width="32"],
+[src$="credentials.png"].icon32x32,
+[src$="credentials.png"].icon-lg,
+[src$="credentials.png"][src*="32x"],
+[src$="credentials.png"][style*="width: 32p"],
+[src$="credentials.png"][width="32"],
+[src$="disabled.png"].icon32x32,
+[src$="disabled.png"].icon-lg,
+[src$="disabled.png"][src*="32x"],
+[src$="disabled.png"][style*="width: 32p"],
+[src$="disabled.png"][width="32"],
+[src$="diskusage48.png"].icon32x32,
+[src$="diskusage48.png"].icon-lg,
+[src$="diskusage48.png"][src*="32x"],
+[src$="diskusage48.png"][style*="width: 32p"],
+[src$="diskusage48.png"][width="32"],
+[src$="domain.png"].icon32x32,
+[src$="domain.png"].icon-lg,
+[src$="domain.png"][src*="32x"],
+[src$="domain.png"][style*="width: 32p"],
+[src$="domain.png"][width="32"],
+[src$="dry-24x24.png"].icon32x32,
+[src$="dry-24x24.png"].icon-lg,
+[src$="dry-24x24.png"][src*="32x"],
+[src$="dry-24x24.png"][style*="width: 32p"],
+[src$="dry-24x24.png"][width="32"],
+[src$="dry-48x48.png"].icon32x32,
+[src$="dry-48x48.png"].icon-lg,
+[src$="dry-48x48.png"][src*="32x"],
+[src$="dry-48x48.png"][style*="width: 32p"],
+[src$="dry-48x48.png"][width="32"],
+[src$="edit-delete.png"].icon32x32,
+[src$="edit-delete.png"].icon-lg,
+[src$="edit-delete.png"][src*="32x"],
+[src$="edit-delete.png"][style*="width: 32p"],
+[src$="edit-delete.png"][width="32"],
+[src$="findbugs-24x24.png"].icon32x32,
+[src$="findbugs-24x24.png"].icon-lg,
+[src$="findbugs-24x24.png"][src*="32x"],
+[src$="findbugs-24x24.png"][style*="width: 32p"],
+[src$="findbugs-24x24.png"][width="32"],
+[src$="findbugs-48x48.png"].icon32x32,
+[src$="findbugs-48x48.png"].icon-lg,
+[src$="findbugs-48x48.png"][src*="32x"],
+[src$="findbugs-48x48.png"][style*="width: 32p"],
+[src$="findbugs-48x48.png"][width="32"],
+[src$="fingerprint.png"].icon32x32,
+[src$="fingerprint.png"].icon-lg,
+[src$="fingerprint.png"][src*="32x"],
+[src$="fingerprint.png"][style*="width: 32p"],
+[src$="fingerprint.png"][width="32"],
+[src$="folder.png"].icon32x32,
+[src$="folder.png"].icon-lg,
+[src$="folder.png"][src*="32x"],
+[src$="folder.png"][style*="width: 32p"],
+[src$="folder.png"][width="32"],
+[src$="gear2.png"].icon32x32,
+[src$="gear2.png"].icon-lg,
+[src$="gear2.png"][src*="32x"],
+[src$="gear2.png"][style*="width: 32p"],
+[src$="gear2.png"][width="32"],
+[src$="gear.png"].icon32x32,
+[src$="gear.png"].icon-lg,
+[src$="gear.png"][src*="32x"],
+[src$="gear.png"][style*="width: 32p"],
+[src$="gear.png"][width="32"],
+[src$="git-32x32.png"].icon32x32,
+[src$="git-32x32.png"].icon-lg,
+[src$="git-32x32.png"][src*="32x"],
+[src$="git-32x32.png"][style*="width: 32p"],
+[src$="git-32x32.png"][width="32"],
+[src$="go-24x24.png"].icon32x32,
+[src$="go-24x24.png"].icon-lg,
+[src$="go-24x24.png"][src*="32x"],
+[src$="go-24x24.png"][style*="width: 32p"],
+[src$="go-24x24.png"][width="32"],
+[src$="go-48x48.png"].icon32x32,
+[src$="go-48x48.png"].icon-lg,
+[src$="go-48x48.png"][src*="32x"],
+[src$="go-48x48.png"][style*="width: 32p"],
+[src$="go-48x48.png"][width="32"],
+[src$="graph.png"].icon32x32,
+[src$="graph.png"].icon-lg,
+[src$="graph.png"][src*="32x"],
+[src$="graph.png"][style*="width: 32p"],
+[src$="graph.png"][width="32"],
+[src$="grey.png"].icon32x32,
+[src$="grey.png"].icon-lg,
+[src$="grey.png"][src*="32x"],
+[src$="grey.png"][style*="width: 32p"],
+[src$="grey.png"][width="32"],
+[src$="grey_anime.gif"].icon32x32,
+[src$="grey_anime.gif"].icon-lg,
+[src$="grey_anime.gif"][src*="32x"],
+[src$="grey_anime.gif"][style*="width: 32p"],
+[src$="grey_anime.gif"][width="32"],
+[src$="help.png"].icon32x32,
+[src$="help.png"].icon-lg,
+[src$="help.png"][src*="32x"],
+[src$="help.png"][style*="width: 32p"],
+[src$="help.png"][width="32"],
+[src$="idea-24x24.png"].icon32x32,
+[src$="idea-24x24.png"].icon-lg,
+[src$="idea-24x24.png"][src*="32x"],
+[src$="idea-24x24.png"][style*="width: 32p"],
+[src$="idea-24x24.png"][width="32"],
+[src$="idea-48x48.png"].icon32x32,
+[src$="idea-48x48.png"].icon-lg,
+[src$="idea-48x48.png"][src*="32x"],
+[src$="idea-48x48.png"][style*="width: 32p"],
+[src$="idea-48x48.png"][width="32"],
+[src$="java-24x24.png"].icon32x32,
+[src$="java-24x24.png"].icon-lg,
+[src$="java-24x24.png"][src*="32x"],
+[src$="java-24x24.png"][style*="width: 32p"],
+[src$="java-24x24.png"][width="32"],
+[src$="java-48x48.png"].icon32x32,
+[src$="java-48x48.png"].icon-lg,
+[src$="java-48x48.png"][src*="32x"],
+[src$="java-48x48.png"][style*="width: 32p"],
+[src$="java-48x48.png"][width="32"],
+[src$="logov3.png"].icon32x32,
+[src$="logov3.png"].icon-lg,
+[src$="logov3.png"][src*="32x"],
+[src$="logov3.png"][style*="width: 32p"],
+[src$="logov3.png"][width="32"],
+[src$="monitor.png"].icon32x32,
+[src$="monitor.png"].icon-lg,
+[src$="monitor.png"][src*="32x"],
+[src$="monitor.png"][style*="width: 32p"],
+[src$="monitor.png"][width="32"],
+[src$="network.png"].icon32x32,
+[src$="network.png"].icon-lg,
+[src$="network.png"][src*="32x"],
+[src$="network.png"][style*="width: 32p"],
+[src$="network.png"][width="32"],
+[src$="new-package.png"].icon32x32,
+[src$="new-package.png"].icon-lg,
+[src$="new-package.png"][src*="32x"],
+[src$="new-package.png"][style*="width: 32p"],
+[src$="new-package.png"][width="32"],
+[src$="nobuilt.png"].icon32x32,
+[src$="nobuilt.png"].icon-lg,
+[src$="nobuilt.png"][src*="32x"],
+[src$="nobuilt.png"][style*="width: 32p"],
+[src$="nobuilt.png"][width="32"],
+[src$="notepad.png"].icon32x32,
+[src$="notepad.png"].icon-lg,
+[src$="notepad.png"][src*="32x"],
+[src$="notepad.png"][style*="width: 32p"],
+[src$="notepad.png"][width="32"],
+[src$="package.gif"].icon32x32,
+[src$="package.gif"].icon-lg,
+[src$="package.gif"][src*="32x"],
+[src$="package.gif"][style*="width: 32p"],
+[src$="package.gif"][width="32"],
+[src$="plugin.png"].icon32x32,
+[src$="plugin.png"].icon-lg,
+[src$="plugin.png"][src*="32x"],
+[src$="plugin.png"][style*="width: 32p"],
+[src$="plugin.png"][width="32"],
+[src$="pmd-24x24.png"].icon32x32,
+[src$="pmd-24x24.png"].icon-lg,
+[src$="pmd-24x24.png"][src*="32x"],
+[src$="pmd-24x24.png"][style*="width: 32p"],
+[src$="pmd-24x24.png"][width="32"],
+[src$="pmd-48x48.png"].icon32x32,
+[src$="pmd-48x48.png"].icon-lg,
+[src$="pmd-48x48.png"][src*="32x"],
+[src$="pmd-48x48.png"][style*="width: 32p"],
+[src$="pmd-48x48.png"][width="32"],
+[src$="red.png"].icon32x32,
+[src$="red.png"].icon-lg,
+[src$="red.png"][src*="32x"],
+[src$="red.png"][style*="width: 32p"],
+[src$="red.png"][width="32"],
+[src$="red_anime.gif"].icon32x32,
+[src$="red_anime.gif"].icon-lg,
+[src$="red_anime.gif"][src*="32x"],
+[src$="red_anime.gif"][style*="width: 32p"],
+[src$="red_anime.gif"][width="32"],
+[src$="refresh.png"].icon32x32,
+[src$="refresh.png"].icon-lg,
+[src$="refresh.png"][src*="32x"],
+[src$="refresh.png"][style*="width: 32p"],
+[src$="refresh.png"][width="32"],
+[src$="resharper-24x24.png"].icon32x32,
+[src$="resharper-24x24.png"].icon-lg,
+[src$="resharper-24x24.png"][src*="32x"],
+[src$="resharper-24x24.png"][style*="width: 32p"],
+[src$="resharper-24x24.png"][width="32"],
+[src$="resharper-48x48.png"].icon32x32,
+[src$="resharper-48x48.png"].icon-lg,
+[src$="resharper-48x48.png"][src*="32x"],
+[src$="resharper-48x48.png"][style*="width: 32p"],
+[src$="resharper-48x48.png"][width="32"],
+[src$="scala-24x24.png"].icon32x32,
+[src$="scala-24x24.png"].icon-lg,
+[src$="scala-24x24.png"][src*="32x"],
+[src$="scala-24x24.png"][style*="width: 32p"],
+[src$="scala-24x24.png"][width="32"],
+[src$="scala-48x48.png"].icon32x32,
+[src$="scala-48x48.png"].icon-lg,
+[src$="scala-48x48.png"][src*="32x"],
+[src$="scala-48x48.png"][style*="width: 32p"],
+[src$="scala-48x48.png"][width="32"],
+[src$="search.png"].icon32x32,
+[src$="search.png"].icon-lg,
+[src$="search.png"][src*="32x"],
+[src$="search.png"][style*="width: 32p"],
+[src$="search.png"][width="32"],
+[src$="secure.png"].icon32x32,
+[src$="secure.png"].icon-lg,
+[src$="secure.png"][src*="32x"],
+[src$="secure.png"][style*="width: 32p"],
+[src$="secure.png"][width="32"],
+[src$="setting.png"].icon32x32,
+[src$="setting.png"].icon-lg,
+[src$="setting.png"][src*="32x"],
+[src$="setting.png"][style*="width: 32p"],
+[src$="setting.png"][width="32"],
+[src$="system-log-out.png"].icon32x32,
+[src$="system-log-out.png"].icon-lg,
+[src$="system-log-out.png"][src*="32x"],
+[src$="system-log-out.png"][style*="width: 32p"],
+[src$="system-log-out.png"][width="32"],
+[src$="tasks-24x24.png"].icon32x32,
+[src$="tasks-24x24.png"].icon-lg,
+[src$="tasks-24x24.png"][src*="32x"],
+[src$="tasks-24x24.png"][style*="width: 32p"],
+[src$="tasks-24x24.png"][width="32"],
+[src$="tasks-48x48.png"].icon32x32,
+[src$="tasks-48x48.png"].icon-lg,
+[src$="tasks-48x48.png"][src*="32x"],
+[src$="tasks-48x48.png"][style*="width: 32p"],
+[src$="tasks-48x48.png"][width="32"],
+[src$="terminal.png"].icon32x32,
+[src$="terminal.png"].icon-lg,
+[src$="terminal.png"][src*="32x"],
+[src$="terminal.png"][style*="width: 32p"],
+[src$="terminal.png"][width="32"],
+[src$="user.png"].icon32x32,
+[src$="user.png"].icon-lg,
+[src$="user.png"][src*="32x"],
+[src$="user.png"][style*="width: 32p"],
+[src$="user.png"][width="32"],
+[src$="warnings-24x24.png"].icon32x32,
+[src$="warnings-24x24.png"].icon-lg,
+[src$="warnings-24x24.png"][src*="32x"],
+[src$="warnings-24x24.png"][style*="width: 32p"],
+[src$="warnings-24x24.png"][width="32"],
+[src$="warnings-48x48.png"].icon32x32,
+[src$="warnings-48x48.png"].icon-lg,
+[src$="warnings-48x48.png"][src*="32x"],
+[src$="warnings-48x48.png"][style*="width: 32p"],
+[src$="warnings-48x48.png"][width="32"],
+[src$="yellow.png"].icon32x32,
+[src$="yellow.png"].icon-lg,
+[src$="yellow.png"][src*="32x"],
+[src$="yellow.png"][style*="width: 32p"],
+[src$="yellow.png"][width="32"],
+[src$="yellow_anime.gif"].icon32x32,
+[src$="yellow_anime.gif"].icon-lg,
+[src$="yellow_anime.gif"][src*="32x"],
+[src$="yellow_anime.gif"][style*="width: 32p"],
+[src$="yellow_anime.gif"][width="32"] {
+    padding-left: 43.2px !important;
+    padding-top: 43.2px !important;
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important
+}
+
+#description-link img.icon24x24,
+#description-link img.icon-md,
+#description-link img[src*="24x"],
+#description-link img[style*="width: 24p"],
+#description-link img[width="24"],
+.icon-aborted-anime.icon24x24,
+.icon-aborted-anime.icon-md,
+.icon-aborted-anime[src*="24x"],
+.icon-aborted-anime[style*="width: 24p"],
+.icon-aborted-anime[width="24"],
+.icon-blue-anime.icon24x24,
+.icon-blue-anime.icon-md,
+.icon-blue-anime[src*="24x"],
+.icon-blue-anime[style*="width: 24p"],
+.icon-blue-anime[width="24"],
+.icon-clipboard.icon24x24,
+.icon-clipboard.icon-md,
+.icon-clipboard[src*="24x"],
+.icon-clipboard[style*="width: 24p"],
+.icon-clipboard[width="24"],
+.icon-clock-anime.icon24x24,
+.icon-clock-anime.icon-md,
+.icon-clock-anime[src*="24x"],
+.icon-clock-anime[style*="width: 24p"],
+.icon-clock-anime[width="24"],
+.icon-clock.icon24x24,
+.icon-clock.icon-md,
+.icon-clock[src*="24x"],
+.icon-clock[style*="width: 24p"],
+.icon-clock[width="24"],
+.icon-collapse.icon24x24,
+.icon-collapse.icon-md,
+.icon-collapse[src*="24x"],
+.icon-collapse[style*="width: 24p"],
+.icon-collapse[width="24"],
+.icon-computer-x.icon24x24,
+.icon-computer-x.icon-md,
+.icon-computer-x[src*="24x"],
+.icon-computer-x[style*="width: 24p"],
+.icon-computer-x[width="24"],
+.icon-computer.icon24x24,
+.icon-computer.icon-md,
+.icon-computer[src*="24x"],
+.icon-computer[style*="width: 24p"],
+.icon-computer[width="24"],
+.icon-document.icon24x24,
+.icon-document.icon-md,
+.icon-document[src*="24x"],
+.icon-document[style*="width: 24p"],
+.icon-document[width="24"],
+.icon-edit-delete.icon24x24,
+.icon-edit-delete.icon-md,
+.icon-edit-delete[src*="24x"],
+.icon-edit-delete[style*="width: 24p"],
+.icon-edit-delete[width="24"],
+.icon-expand.icon24x24,
+.icon-expand.icon-md,
+.icon-expand[src*="24x"],
+.icon-expand[style*="width: 24p"],
+.icon-expand[width="24"],
+.icon-fingerprint.icon24x24,
+.icon-fingerprint.icon-md,
+.icon-fingerprint[src*="24x"],
+.icon-fingerprint[style*="width: 24p"],
+.icon-fingerprint[width="24"],
+.icon-folder-delete.icon24x24,
+.icon-folder-delete.icon-md,
+.icon-folder-delete[src*="24x"],
+.icon-folder-delete[style*="width: 24p"],
+.icon-folder-delete[width="24"],
+.icon-folder.icon24x24,
+.icon-folder.icon-md,
+.icon-folder[src*="24x"],
+.icon-folder[style*="width: 24p"],
+.icon-folder[width="24"],
+.icon-gear2.icon24x24,
+.icon-gear2.icon-md,
+.icon-gear2[src*="24x"],
+.icon-gear2[style*="width: 24p"],
+.icon-gear2[width="24"],
+.icon-gear.icon24x24,
+.icon-gear.icon-md,
+.icon-gear[src*="24x"],
+.icon-gear[style*="width: 24p"],
+.icon-gear[width="24"],
+.icon-go-next.icon24x24,
+.icon-go-next.icon-md,
+.icon-go-next[src*="24x"],
+.icon-go-next[style*="width: 24p"],
+.icon-go-next[width="24"],
+.icon-graph.icon24x24,
+.icon-graph.icon-md,
+.icon-graph[src*="24x"],
+.icon-graph[style*="width: 24p"],
+.icon-graph[width="24"],
+.icon-grey-anime.icon24x24,
+.icon-grey-anime.icon-md,
+.icon-grey-anime[src*="24x"],
+.icon-grey-anime[style*="width: 24p"],
+.icon-grey-anime[width="24"],
+.icon-health-00to19.icon24x24,
+.icon-health-00to19.icon-md,
+.icon-health-00to19[src*="24x"],
+.icon-health-00to19[style*="width: 24p"],
+.icon-health-00to19[width="24"],
+.icon-health-20to39.icon24x24,
+.icon-health-20to39.icon-md,
+.icon-health-20to39[src*="24x"],
+.icon-health-20to39[style*="width: 24p"],
+.icon-health-20to39[width="24"],
+.icon-health-40to59.icon24x24,
+.icon-health-40to59.icon-md,
+.icon-health-40to59[src*="24x"],
+.icon-health-40to59[style*="width: 24p"],
+.icon-health-40to59[width="24"],
+.icon-health-60to79.icon24x24,
+.icon-health-60to79.icon-md,
+.icon-health-60to79[src*="24x"],
+.icon-health-60to79[style*="width: 24p"],
+.icon-health-60to79[width="24"],
+.icon-health-80plus.icon24x24,
+.icon-health-80plus.icon-md,
+.icon-health-80plus[src*="24x"],
+.icon-health-80plus[style*="width: 24p"],
+.icon-health-80plus[width="24"],
+.icon-help.icon24x24,
+.icon-help.icon-md,
+.icon-help[src*="24x"],
+.icon-help[style*="width: 24p"],
+.icon-help[width="24"],
+.icon-lock.icon24x24,
+.icon-lock.icon-md,
+.icon-lock[src*="24x"],
+.icon-lock[style*="width: 24p"],
+.icon-lock[width="24"],
+.icon-monitor.icon24x24,
+.icon-monitor.icon-md,
+.icon-monitor[src*="24x"],
+.icon-monitor[style*="width: 24p"],
+.icon-monitor[width="24"],
+.icon-network.icon24x24,
+.icon-network.icon-md,
+.icon-network[src*="24x"],
+.icon-network[style*="width: 24p"],
+.icon-network[width="24"],
+.icon-new-computer.icon24x24,
+.icon-new-computer.icon-md,
+.icon-new-computer[src*="24x"],
+.icon-new-computer[style*="width: 24p"],
+.icon-new-computer[width="24"],
+.icon-new-package.icon24x24,
+.icon-new-package.icon-md,
+.icon-new-package[src*="24x"],
+.icon-new-package[style*="width: 24p"],
+.icon-new-package[width="24"],
+.icon-next.icon24x24,
+.icon-next.icon-md,
+.icon-next[src*="24x"],
+.icon-next[style*="width: 24p"],
+.icon-next[width="24"],
+.icon-nobuilt-anime.icon24x24,
+.icon-nobuilt-anime.icon-md,
+.icon-nobuilt-anime[src*="24x"],
+.icon-nobuilt-anime[style*="width: 24p"],
+.icon-nobuilt-anime[width="24"],
+.icon-notepad.icon24x24,
+.icon-notepad.icon-md,
+.icon-notepad[src*="24x"],
+.icon-notepad[style*="width: 24p"],
+.icon-notepad[width="24"],
+.icon-package.icon24x24,
+.icon-package.icon-md,
+.icon-package[src*="24x"],
+.icon-package[style*="width: 24p"],
+.icon-package[width="24"],
+.icon-plugin.icon24x24,
+.icon-plugin.icon-md,
+.icon-plugin[src*="24x"],
+.icon-plugin[style*="width: 24p"],
+.icon-plugin[width="24"],
+.icon-previous.icon24x24,
+.icon-previous.icon-md,
+.icon-previous[src*="24x"],
+.icon-previous[style*="width: 24p"],
+.icon-previous[width="24"],
+.icon-red-anime.icon24x24,
+.icon-red-anime.icon-md,
+.icon-red-anime[src*="24x"],
+.icon-red-anime[style*="width: 24p"],
+.icon-red-anime[width="24"],
+.icon-refresh.icon24x24,
+.icon-refresh.icon-md,
+.icon-refresh[src*="24x"],
+.icon-refresh[style*="width: 24p"],
+.icon-refresh[width="24"],
+.icon-save.icon24x24,
+.icon-save.icon-md,
+.icon-save[src*="24x"],
+.icon-save[style*="width: 24p"],
+.icon-save[width="24"],
+.icon-search.icon24x24,
+.icon-search.icon-md,
+.icon-search[src*="24x"],
+.icon-search[style*="width: 24p"],
+.icon-search[width="24"],
+.icon-secure.icon24x24,
+.icon-secure.icon-md,
+.icon-secure[src*="24x"],
+.icon-secure[style*="width: 24p"],
+.icon-secure[width="24"],
+.icon-setting.icon24x24,
+.icon-setting.icon-md,
+.icon-setting[src*="24x"],
+.icon-setting[style*="width: 24p"],
+.icon-setting[width="24"],
+.icon-stop.icon24x24,
+.icon-stop.icon-md,
+.icon-stop[src*="24x"],
+.icon-stop[style*="width: 24p"],
+.icon-stop[width="24"],
+.icon-system-log-out.icon24x24,
+.icon-system-log-out.icon-md,
+.icon-system-log-out[src*="24x"],
+.icon-system-log-out[style*="width: 24p"],
+.icon-system-log-out[width="24"],
+.icon-terminal.icon24x24,
+.icon-terminal.icon-md,
+.icon-terminal[src*="24x"],
+.icon-terminal[style*="width: 24p"],
+.icon-terminal[width="24"],
+.icon-text.icon24x24,
+.icon-text.icon-md,
+.icon-text[src*="24x"],
+.icon-text[style*="width: 24p"],
+.icon-text[width="24"],
+.icon-up.icon24x24,
+.icon-up.icon-md,
+.icon-up[src*="24x"],
+.icon-up[style*="width: 24p"],
+.icon-up[width="24"],
+.icon-user.icon24x24,
+.icon-user.icon-md,
+.icon-user[src*="24x"],
+.icon-user[style*="width: 24p"],
+.icon-user[width="24"],
+.icon-yellow-anime.icon24x24,
+.icon-yellow-anime.icon-md,
+.icon-yellow-anime[src*="24x"],
+.icon-yellow-anime[style*="width: 24p"],
+.icon-yellow-anime[width="24"],
+[src$="/atom.gif"].icon24x24,
+[src$="/atom.gif"].icon-md,
+[src$="/atom.gif"][src*="24x"],
+[src$="/atom.gif"][style*="width: 24p"],
+[src$="/atom.gif"][width="24"],
+[src$="/directory16.png"].icon24x24,
+[src$="/directory16.png"].icon-md,
+[src$="/directory16.png"][src*="24x"],
+[src$="/directory16.png"][style*="width: 24p"],
+[src$="/directory16.png"][width="24"],
+[src$="/move.png"].icon24x24,
+[src$="/move.png"].icon-md,
+[src$="/move.png"][src*="24x"],
+[src$="/move.png"][style*="width: 24p"],
+[src$="/move.png"][width="24"],
+[src$="/save.png"].icon24x24,
+[src$="/save.png"].icon-md,
+[src$="/save.png"][src*="24x"],
+[src$="/save.png"][style*="width: 24p"],
+[src$="/save.png"][width="24"],
+[src$="aborted.png"].icon24x24,
+[src$="aborted.png"].icon-md,
+[src$="aborted.png"][src*="24x"],
+[src$="aborted.png"][style*="width: 24p"],
+[src$="aborted.png"][width="24"],
+[src$="analysis-24x24.png"].icon24x24,
+[src$="analysis-24x24.png"].icon-md,
+[src$="analysis-24x24.png"][src*="24x"],
+[src$="analysis-24x24.png"][style*="width: 24p"],
+[src$="analysis-24x24.png"][width="24"],
+[src$="analysis-48x48.png"].icon24x24,
+[src$="analysis-48x48.png"].icon-md,
+[src$="analysis-48x48.png"][src*="24x"],
+[src$="analysis-48x48.png"][style*="width: 24p"],
+[src$="analysis-48x48.png"][width="24"],
+[src$="blue.png"].icon24x24,
+[src$="blue.png"].icon-md,
+[src$="blue.png"][src*="24x"],
+[src$="blue.png"][style*="width: 24p"],
+[src$="blue.png"][width="24"],
+[src$="blue_anime.gif"].icon24x24,
+[src$="blue_anime.gif"].icon-md,
+[src$="blue_anime.gif"][src*="24x"],
+[src$="blue_anime.gif"][style*="width: 24p"],
+[src$="blue_anime.gif"][width="24"],
+[src$="checkstyle-24x24.png"].icon24x24,
+[src$="checkstyle-24x24.png"].icon-md,
+[src$="checkstyle-24x24.png"][src*="24x"],
+[src$="checkstyle-24x24.png"][style*="width: 24p"],
+[src$="checkstyle-24x24.png"][width="24"],
+[src$="checkstyle-48x48.png"].icon24x24,
+[src$="checkstyle-48x48.png"].icon-md,
+[src$="checkstyle-48x48.png"][src*="24x"],
+[src$="checkstyle-48x48.png"][style*="width: 24p"],
+[src$="checkstyle-48x48.png"][width="24"],
+[src$="clipboard.png"].icon24x24,
+[src$="clipboard.png"].icon-md,
+[src$="clipboard.png"][src*="24x"],
+[src$="clipboard.png"][style*="width: 24p"],
+[src$="clipboard.png"][width="24"],
+[src$="clock.png"].icon24x24,
+[src$="clock.png"].icon-md,
+[src$="clock.png"][src*="24x"],
+[src$="clock.png"][style*="width: 24p"],
+[src$="clock.png"][width="24"],
+[src$="computer.png"].icon24x24,
+[src$="computer.png"].icon-md,
+[src$="computer.png"][src*="24x"],
+[src$="computer.png"][style*="width: 24p"],
+[src$="computer.png"][width="24"],
+[src$="confighistory.png"].icon24x24,
+[src$="confighistory.png"].icon-md,
+[src$="confighistory.png"][src*="24x"],
+[src$="confighistory.png"][style*="width: 24p"],
+[src$="confighistory.png"][width="24"],
+[src$="credentials.png"].icon24x24,
+[src$="credentials.png"].icon-md,
+[src$="credentials.png"][src*="24x"],
+[src$="credentials.png"][style*="width: 24p"],
+[src$="credentials.png"][width="24"],
+[src$="disabled.png"].icon24x24,
+[src$="disabled.png"].icon-md,
+[src$="disabled.png"][src*="24x"],
+[src$="disabled.png"][style*="width: 24p"],
+[src$="disabled.png"][width="24"],
+[src$="diskusage48.png"].icon24x24,
+[src$="diskusage48.png"].icon-md,
+[src$="diskusage48.png"][src*="24x"],
+[src$="diskusage48.png"][style*="width: 24p"],
+[src$="diskusage48.png"][width="24"],
+[src$="domain.png"].icon24x24,
+[src$="domain.png"].icon-md,
+[src$="domain.png"][src*="24x"],
+[src$="domain.png"][style*="width: 24p"],
+[src$="domain.png"][width="24"],
+[src$="dry-24x24.png"].icon24x24,
+[src$="dry-24x24.png"].icon-md,
+[src$="dry-24x24.png"][src*="24x"],
+[src$="dry-24x24.png"][style*="width: 24p"],
+[src$="dry-24x24.png"][width="24"],
+[src$="dry-48x48.png"].icon24x24,
+[src$="dry-48x48.png"].icon-md,
+[src$="dry-48x48.png"][src*="24x"],
+[src$="dry-48x48.png"][style*="width: 24p"],
+[src$="dry-48x48.png"][width="24"],
+[src$="edit-delete.png"].icon24x24,
+[src$="edit-delete.png"].icon-md,
+[src$="edit-delete.png"][src*="24x"],
+[src$="edit-delete.png"][style*="width: 24p"],
+[src$="edit-delete.png"][width="24"],
+[src$="findbugs-24x24.png"].icon24x24,
+[src$="findbugs-24x24.png"].icon-md,
+[src$="findbugs-24x24.png"][src*="24x"],
+[src$="findbugs-24x24.png"][style*="width: 24p"],
+[src$="findbugs-24x24.png"][width="24"],
+[src$="findbugs-48x48.png"].icon24x24,
+[src$="findbugs-48x48.png"].icon-md,
+[src$="findbugs-48x48.png"][src*="24x"],
+[src$="findbugs-48x48.png"][style*="width: 24p"],
+[src$="findbugs-48x48.png"][width="24"],
+[src$="fingerprint.png"].icon24x24,
+[src$="fingerprint.png"].icon-md,
+[src$="fingerprint.png"][src*="24x"],
+[src$="fingerprint.png"][style*="width: 24p"],
+[src$="fingerprint.png"][width="24"],
+[src$="folder.png"].icon24x24,
+[src$="folder.png"].icon-md,
+[src$="folder.png"][src*="24x"],
+[src$="folder.png"][style*="width: 24p"],
+[src$="folder.png"][width="24"],
+[src$="gear2.png"].icon24x24,
+[src$="gear2.png"].icon-md,
+[src$="gear2.png"][src*="24x"],
+[src$="gear2.png"][style*="width: 24p"],
+[src$="gear2.png"][width="24"],
+[src$="gear.png"].icon24x24,
+[src$="gear.png"].icon-md,
+[src$="gear.png"][src*="24x"],
+[src$="gear.png"][style*="width: 24p"],
+[src$="gear.png"][width="24"],
+[src$="git-32x32.png"].icon24x24,
+[src$="git-32x32.png"].icon-md,
+[src$="git-32x32.png"][src*="24x"],
+[src$="git-32x32.png"][style*="width: 24p"],
+[src$="git-32x32.png"][width="24"],
+[src$="go-24x24.png"].icon24x24,
+[src$="go-24x24.png"].icon-md,
+[src$="go-24x24.png"][src*="24x"],
+[src$="go-24x24.png"][style*="width: 24p"],
+[src$="go-24x24.png"][width="24"],
+[src$="go-48x48.png"].icon24x24,
+[src$="go-48x48.png"].icon-md,
+[src$="go-48x48.png"][src*="24x"],
+[src$="go-48x48.png"][style*="width: 24p"],
+[src$="go-48x48.png"][width="24"],
+[src$="graph.png"].icon24x24,
+[src$="graph.png"].icon-md,
+[src$="graph.png"][src*="24x"],
+[src$="graph.png"][style*="width: 24p"],
+[src$="graph.png"][width="24"],
+[src$="grey.png"].icon24x24,
+[src$="grey.png"].icon-md,
+[src$="grey.png"][src*="24x"],
+[src$="grey.png"][style*="width: 24p"],
+[src$="grey.png"][width="24"],
+[src$="grey_anime.gif"].icon24x24,
+[src$="grey_anime.gif"].icon-md,
+[src$="grey_anime.gif"][src*="24x"],
+[src$="grey_anime.gif"][style*="width: 24p"],
+[src$="grey_anime.gif"][width="24"],
+[src$="help.png"].icon24x24,
+[src$="help.png"].icon-md,
+[src$="help.png"][src*="24x"],
+[src$="help.png"][style*="width: 24p"],
+[src$="help.png"][width="24"],
+[src$="idea-24x24.png"].icon24x24,
+[src$="idea-24x24.png"].icon-md,
+[src$="idea-24x24.png"][src*="24x"],
+[src$="idea-24x24.png"][style*="width: 24p"],
+[src$="idea-24x24.png"][width="24"],
+[src$="idea-48x48.png"].icon24x24,
+[src$="idea-48x48.png"].icon-md,
+[src$="idea-48x48.png"][src*="24x"],
+[src$="idea-48x48.png"][style*="width: 24p"],
+[src$="idea-48x48.png"][width="24"],
+[src$="java-24x24.png"].icon24x24,
+[src$="java-24x24.png"].icon-md,
+[src$="java-24x24.png"][src*="24x"],
+[src$="java-24x24.png"][style*="width: 24p"],
+[src$="java-24x24.png"][width="24"],
+[src$="java-48x48.png"].icon24x24,
+[src$="java-48x48.png"].icon-md,
+[src$="java-48x48.png"][src*="24x"],
+[src$="java-48x48.png"][style*="width: 24p"],
+[src$="java-48x48.png"][width="24"],
+[src$="logov3.png"].icon24x24,
+[src$="logov3.png"].icon-md,
+[src$="logov3.png"][src*="24x"],
+[src$="logov3.png"][style*="width: 24p"],
+[src$="logov3.png"][width="24"],
+[src$="monitor.png"].icon24x24,
+[src$="monitor.png"].icon-md,
+[src$="monitor.png"][src*="24x"],
+[src$="monitor.png"][style*="width: 24p"],
+[src$="monitor.png"][width="24"],
+[src$="network.png"].icon24x24,
+[src$="network.png"].icon-md,
+[src$="network.png"][src*="24x"],
+[src$="network.png"][style*="width: 24p"],
+[src$="network.png"][width="24"],
+[src$="new-package.png"].icon24x24,
+[src$="new-package.png"].icon-md,
+[src$="new-package.png"][src*="24x"],
+[src$="new-package.png"][style*="width: 24p"],
+[src$="new-package.png"][width="24"],
+[src$="nobuilt.png"].icon24x24,
+[src$="nobuilt.png"].icon-md,
+[src$="nobuilt.png"][src*="24x"],
+[src$="nobuilt.png"][style*="width: 24p"],
+[src$="nobuilt.png"][width="24"],
+[src$="notepad.png"].icon24x24,
+[src$="notepad.png"].icon-md,
+[src$="notepad.png"][src*="24x"],
+[src$="notepad.png"][style*="width: 24p"],
+[src$="notepad.png"][width="24"],
+[src$="package.gif"].icon24x24,
+[src$="package.gif"].icon-md,
+[src$="package.gif"][src*="24x"],
+[src$="package.gif"][style*="width: 24p"],
+[src$="package.gif"][width="24"],
+[src$="plugin.png"].icon24x24,
+[src$="plugin.png"].icon-md,
+[src$="plugin.png"][src*="24x"],
+[src$="plugin.png"][style*="width: 24p"],
+[src$="plugin.png"][width="24"],
+[src$="pmd-24x24.png"].icon24x24,
+[src$="pmd-24x24.png"].icon-md,
+[src$="pmd-24x24.png"][src*="24x"],
+[src$="pmd-24x24.png"][style*="width: 24p"],
+[src$="pmd-24x24.png"][width="24"],
+[src$="pmd-48x48.png"].icon24x24,
+[src$="pmd-48x48.png"].icon-md,
+[src$="pmd-48x48.png"][src*="24x"],
+[src$="pmd-48x48.png"][style*="width: 24p"],
+[src$="pmd-48x48.png"][width="24"],
+[src$="red.png"].icon24x24,
+[src$="red.png"].icon-md,
+[src$="red.png"][src*="24x"],
+[src$="red.png"][style*="width: 24p"],
+[src$="red.png"][width="24"],
+[src$="red_anime.gif"].icon24x24,
+[src$="red_anime.gif"].icon-md,
+[src$="red_anime.gif"][src*="24x"],
+[src$="red_anime.gif"][style*="width: 24p"],
+[src$="red_anime.gif"][width="24"],
+[src$="refresh.png"].icon24x24,
+[src$="refresh.png"].icon-md,
+[src$="refresh.png"][src*="24x"],
+[src$="refresh.png"][style*="width: 24p"],
+[src$="refresh.png"][width="24"],
+[src$="resharper-24x24.png"].icon24x24,
+[src$="resharper-24x24.png"].icon-md,
+[src$="resharper-24x24.png"][src*="24x"],
+[src$="resharper-24x24.png"][style*="width: 24p"],
+[src$="resharper-24x24.png"][width="24"],
+[src$="resharper-48x48.png"].icon24x24,
+[src$="resharper-48x48.png"].icon-md,
+[src$="resharper-48x48.png"][src*="24x"],
+[src$="resharper-48x48.png"][style*="width: 24p"],
+[src$="resharper-48x48.png"][width="24"],
+[src$="scala-24x24.png"].icon24x24,
+[src$="scala-24x24.png"].icon-md,
+[src$="scala-24x24.png"][src*="24x"],
+[src$="scala-24x24.png"][style*="width: 24p"],
+[src$="scala-24x24.png"][width="24"],
+[src$="scala-48x48.png"].icon24x24,
+[src$="scala-48x48.png"].icon-md,
+[src$="scala-48x48.png"][src*="24x"],
+[src$="scala-48x48.png"][style*="width: 24p"],
+[src$="scala-48x48.png"][width="24"],
+[src$="search.png"].icon24x24,
+[src$="search.png"].icon-md,
+[src$="search.png"][src*="24x"],
+[src$="search.png"][style*="width: 24p"],
+[src$="search.png"][width="24"],
+[src$="secure.png"].icon24x24,
+[src$="secure.png"].icon-md,
+[src$="secure.png"][src*="24x"],
+[src$="secure.png"][style*="width: 24p"],
+[src$="secure.png"][width="24"],
+[src$="setting.png"].icon24x24,
+[src$="setting.png"].icon-md,
+[src$="setting.png"][src*="24x"],
+[src$="setting.png"][style*="width: 24p"],
+[src$="setting.png"][width="24"],
+[src$="system-log-out.png"].icon24x24,
+[src$="system-log-out.png"].icon-md,
+[src$="system-log-out.png"][src*="24x"],
+[src$="system-log-out.png"][style*="width: 24p"],
+[src$="system-log-out.png"][width="24"],
+[src$="tasks-24x24.png"].icon24x24,
+[src$="tasks-24x24.png"].icon-md,
+[src$="tasks-24x24.png"][src*="24x"],
+[src$="tasks-24x24.png"][style*="width: 24p"],
+[src$="tasks-24x24.png"][width="24"],
+[src$="tasks-48x48.png"].icon24x24,
+[src$="tasks-48x48.png"].icon-md,
+[src$="tasks-48x48.png"][src*="24x"],
+[src$="tasks-48x48.png"][style*="width: 24p"],
+[src$="tasks-48x48.png"][width="24"],
+[src$="terminal.png"].icon24x24,
+[src$="terminal.png"].icon-md,
+[src$="terminal.png"][src*="24x"],
+[src$="terminal.png"][style*="width: 24p"],
+[src$="terminal.png"][width="24"],
+[src$="user.png"].icon24x24,
+[src$="user.png"].icon-md,
+[src$="user.png"][src*="24x"],
+[src$="user.png"][style*="width: 24p"],
+[src$="user.png"][width="24"],
+[src$="warnings-24x24.png"].icon24x24,
+[src$="warnings-24x24.png"].icon-md,
+[src$="warnings-24x24.png"][src*="24x"],
+[src$="warnings-24x24.png"][style*="width: 24p"],
+[src$="warnings-24x24.png"][width="24"],
+[src$="warnings-48x48.png"].icon24x24,
+[src$="warnings-48x48.png"].icon-md,
+[src$="warnings-48x48.png"][src*="24x"],
+[src$="warnings-48x48.png"][style*="width: 24p"],
+[src$="warnings-48x48.png"][width="24"],
+[src$="yellow.png"].icon24x24,
+[src$="yellow.png"].icon-md,
+[src$="yellow.png"][src*="24x"],
+[src$="yellow.png"][style*="width: 24p"],
+[src$="yellow.png"][width="24"],
+[src$="yellow_anime.gif"].icon24x24,
+[src$="yellow_anime.gif"].icon-md,
+[src$="yellow_anime.gif"][src*="24x"],
+[src$="yellow_anime.gif"][style*="width: 24p"],
+[src$="yellow_anime.gif"][width="24"] {
+    padding-left: 28.8px !important;
+    padding-top: 28.8px !important;
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important
+}
+
+#description-link img.icon16x16,
+#description-link img.icon-sm,
+#description-link img[src*="16x"],
+#description-link img[style*="width: 16p"],
+#description-link img[width="16"],
+.icon-aborted-anime.icon16x16,
+.icon-aborted-anime.icon-sm,
+.icon-aborted-anime[src*="16x"],
+.icon-aborted-anime[style*="width: 16p"],
+.icon-aborted-anime[width="16"],
+.icon-blue-anime.icon16x16,
+.icon-blue-anime.icon-sm,
+.icon-blue-anime[src*="16x"],
+.icon-blue-anime[style*="width: 16p"],
+.icon-blue-anime[width="16"],
+.icon-clipboard.icon16x16,
+.icon-clipboard.icon-sm,
+.icon-clipboard[src*="16x"],
+.icon-clipboard[style*="width: 16p"],
+.icon-clipboard[width="16"],
+.icon-clock-anime.icon16x16,
+.icon-clock-anime.icon-sm,
+.icon-clock-anime[src*="16x"],
+.icon-clock-anime[style*="width: 16p"],
+.icon-clock-anime[width="16"],
+.icon-clock.icon16x16,
+.icon-clock.icon-sm,
+.icon-clock[src*="16x"],
+.icon-clock[style*="width: 16p"],
+.icon-clock[width="16"],
+.icon-collapse.icon16x16,
+.icon-collapse.icon-sm,
+.icon-collapse[src*="16x"],
+.icon-collapse[style*="width: 16p"],
+.icon-collapse[width="16"],
+.icon-computer-x.icon16x16,
+.icon-computer-x.icon-sm,
+.icon-computer-x[src*="16x"],
+.icon-computer-x[style*="width: 16p"],
+.icon-computer-x[width="16"],
+.icon-computer.icon16x16,
+.icon-computer.icon-sm,
+.icon-computer[src*="16x"],
+.icon-computer[style*="width: 16p"],
+.icon-computer[width="16"],
+.icon-document.icon16x16,
+.icon-document.icon-sm,
+.icon-document[src*="16x"],
+.icon-document[style*="width: 16p"],
+.icon-document[width="16"],
+.icon-edit-delete.icon16x16,
+.icon-edit-delete.icon-sm,
+.icon-edit-delete[src*="16x"],
+.icon-edit-delete[style*="width: 16p"],
+.icon-edit-delete[width="16"],
+.icon-expand.icon16x16,
+.icon-expand.icon-sm,
+.icon-expand[src*="16x"],
+.icon-expand[style*="width: 16p"],
+.icon-expand[width="16"],
+.icon-fingerprint.icon16x16,
+.icon-fingerprint.icon-sm,
+.icon-fingerprint[src*="16x"],
+.icon-fingerprint[style*="width: 16p"],
+.icon-fingerprint[width="16"],
+.icon-folder-delete.icon16x16,
+.icon-folder-delete.icon-sm,
+.icon-folder-delete[src*="16x"],
+.icon-folder-delete[style*="width: 16p"],
+.icon-folder-delete[width="16"],
+.icon-folder.icon16x16,
+.icon-folder.icon-sm,
+.icon-folder[src*="16x"],
+.icon-folder[style*="width: 16p"],
+.icon-folder[width="16"],
+.icon-gear2.icon16x16,
+.icon-gear2.icon-sm,
+.icon-gear2[src*="16x"],
+.icon-gear2[style*="width: 16p"],
+.icon-gear2[width="16"],
+.icon-gear.icon16x16,
+.icon-gear.icon-sm,
+.icon-gear[src*="16x"],
+.icon-gear[style*="width: 16p"],
+.icon-gear[width="16"],
+.icon-go-next.icon16x16,
+.icon-go-next.icon-sm,
+.icon-go-next[src*="16x"],
+.icon-go-next[style*="width: 16p"],
+.icon-go-next[width="16"],
+.icon-graph.icon16x16,
+.icon-graph.icon-sm,
+.icon-graph[src*="16x"],
+.icon-graph[style*="width: 16p"],
+.icon-graph[width="16"],
+.icon-grey-anime.icon16x16,
+.icon-grey-anime.icon-sm,
+.icon-grey-anime[src*="16x"],
+.icon-grey-anime[style*="width: 16p"],
+.icon-grey-anime[width="16"],
+.icon-health-00to19.icon16x16,
+.icon-health-00to19.icon-sm,
+.icon-health-00to19[src*="16x"],
+.icon-health-00to19[style*="width: 16p"],
+.icon-health-00to19[width="16"],
+.icon-health-20to39.icon16x16,
+.icon-health-20to39.icon-sm,
+.icon-health-20to39[src*="16x"],
+.icon-health-20to39[style*="width: 16p"],
+.icon-health-20to39[width="16"],
+.icon-health-40to59.icon16x16,
+.icon-health-40to59.icon-sm,
+.icon-health-40to59[src*="16x"],
+.icon-health-40to59[style*="width: 16p"],
+.icon-health-40to59[width="16"],
+.icon-health-60to79.icon16x16,
+.icon-health-60to79.icon-sm,
+.icon-health-60to79[src*="16x"],
+.icon-health-60to79[style*="width: 16p"],
+.icon-health-60to79[width="16"],
+.icon-health-80plus.icon16x16,
+.icon-health-80plus.icon-sm,
+.icon-health-80plus[src*="16x"],
+.icon-health-80plus[style*="width: 16p"],
+.icon-health-80plus[width="16"],
+.icon-help.icon16x16,
+.icon-help.icon-sm,
+.icon-help[src*="16x"],
+.icon-help[style*="width: 16p"],
+.icon-help[width="16"],
+.icon-lock.icon16x16,
+.icon-lock.icon-sm,
+.icon-lock[src*="16x"],
+.icon-lock[style*="width: 16p"],
+.icon-lock[width="16"],
+.icon-monitor.icon16x16,
+.icon-monitor.icon-sm,
+.icon-monitor[src*="16x"],
+.icon-monitor[style*="width: 16p"],
+.icon-monitor[width="16"],
+.icon-network.icon16x16,
+.icon-network.icon-sm,
+.icon-network[src*="16x"],
+.icon-network[style*="width: 16p"],
+.icon-network[width="16"],
+.icon-new-computer.icon16x16,
+.icon-new-computer.icon-sm,
+.icon-new-computer[src*="16x"],
+.icon-new-computer[style*="width: 16p"],
+.icon-new-computer[width="16"],
+.icon-new-package.icon16x16,
+.icon-new-package.icon-sm,
+.icon-new-package[src*="16x"],
+.icon-new-package[style*="width: 16p"],
+.icon-new-package[width="16"],
+.icon-next.icon16x16,
+.icon-next.icon-sm,
+.icon-next[src*="16x"],
+.icon-next[style*="width: 16p"],
+.icon-next[width="16"],
+.icon-nobuilt-anime.icon16x16,
+.icon-nobuilt-anime.icon-sm,
+.icon-nobuilt-anime[src*="16x"],
+.icon-nobuilt-anime[style*="width: 16p"],
+.icon-nobuilt-anime[width="16"],
+.icon-notepad.icon16x16,
+.icon-notepad.icon-sm,
+.icon-notepad[src*="16x"],
+.icon-notepad[style*="width: 16p"],
+.icon-notepad[width="16"],
+.icon-package.icon16x16,
+.icon-package.icon-sm,
+.icon-package[src*="16x"],
+.icon-package[style*="width: 16p"],
+.icon-package[width="16"],
+.icon-plugin.icon16x16,
+.icon-plugin.icon-sm,
+.icon-plugin[src*="16x"],
+.icon-plugin[style*="width: 16p"],
+.icon-plugin[width="16"],
+.icon-previous.icon16x16,
+.icon-previous.icon-sm,
+.icon-previous[src*="16x"],
+.icon-previous[style*="width: 16p"],
+.icon-previous[width="16"],
+.icon-red-anime.icon16x16,
+.icon-red-anime.icon-sm,
+.icon-red-anime[src*="16x"],
+.icon-red-anime[style*="width: 16p"],
+.icon-red-anime[width="16"],
+.icon-refresh.icon16x16,
+.icon-refresh.icon-sm,
+.icon-refresh[src*="16x"],
+.icon-refresh[style*="width: 16p"],
+.icon-refresh[width="16"],
+.icon-save.icon16x16,
+.icon-save.icon-sm,
+.icon-save[src*="16x"],
+.icon-save[style*="width: 16p"],
+.icon-save[width="16"],
+.icon-search.icon16x16,
+.icon-search.icon-sm,
+.icon-search[src*="16x"],
+.icon-search[style*="width: 16p"],
+.icon-search[width="16"],
+.icon-secure.icon16x16,
+.icon-secure.icon-sm,
+.icon-secure[src*="16x"],
+.icon-secure[style*="width: 16p"],
+.icon-secure[width="16"],
+.icon-setting.icon16x16,
+.icon-setting.icon-sm,
+.icon-setting[src*="16x"],
+.icon-setting[style*="width: 16p"],
+.icon-setting[width="16"],
+.icon-stop.icon16x16,
+.icon-stop.icon-sm,
+.icon-stop[src*="16x"],
+.icon-stop[style*="width: 16p"],
+.icon-stop[width="16"],
+.icon-system-log-out.icon16x16,
+.icon-system-log-out.icon-sm,
+.icon-system-log-out[src*="16x"],
+.icon-system-log-out[style*="width: 16p"],
+.icon-system-log-out[width="16"],
+.icon-terminal.icon16x16,
+.icon-terminal.icon-sm,
+.icon-terminal[src*="16x"],
+.icon-terminal[style*="width: 16p"],
+.icon-terminal[width="16"],
+.icon-text.icon16x16,
+.icon-text.icon-sm,
+.icon-text[src*="16x"],
+.icon-text[style*="width: 16p"],
+.icon-text[width="16"],
+.icon-up.icon16x16,
+.icon-up.icon-sm,
+.icon-up[src*="16x"],
+.icon-up[style*="width: 16p"],
+.icon-up[width="16"],
+.icon-user.icon16x16,
+.icon-user.icon-sm,
+.icon-user[src*="16x"],
+.icon-user[style*="width: 16p"],
+.icon-user[width="16"],
+.icon-yellow-anime.icon16x16,
+.icon-yellow-anime.icon-sm,
+.icon-yellow-anime[src*="16x"],
+.icon-yellow-anime[style*="width: 16p"],
+.icon-yellow-anime[width="16"],
+[src$="/atom.gif"].icon16x16,
+[src$="/atom.gif"].icon-sm,
+[src$="/atom.gif"][src*="16x"],
+[src$="/atom.gif"][style*="width: 16p"],
+[src$="/atom.gif"][width="16"],
+[src$="/directory16.png"].icon16x16,
+[src$="/directory16.png"].icon-sm,
+[src$="/directory16.png"][src*="16x"],
+[src$="/directory16.png"][style*="width: 16p"],
+[src$="/directory16.png"][width="16"],
+[src$="/move.png"].icon16x16,
+[src$="/move.png"].icon-sm,
+[src$="/move.png"][src*="16x"],
+[src$="/move.png"][style*="width: 16p"],
+[src$="/move.png"][width="16"],
+[src$="/save.png"].icon16x16,
+[src$="/save.png"].icon-sm,
+[src$="/save.png"][src*="16x"],
+[src$="/save.png"][style*="width: 16p"],
+[src$="/save.png"][width="16"],
+[src$="aborted.png"].icon16x16,
+[src$="aborted.png"].icon-sm,
+[src$="aborted.png"][src*="16x"],
+[src$="aborted.png"][style*="width: 16p"],
+[src$="aborted.png"][width="16"],
+[src$="analysis-24x24.png"].icon16x16,
+[src$="analysis-24x24.png"].icon-sm,
+[src$="analysis-24x24.png"][src*="16x"],
+[src$="analysis-24x24.png"][style*="width: 16p"],
+[src$="analysis-24x24.png"][width="16"],
+[src$="analysis-48x48.png"].icon16x16,
+[src$="analysis-48x48.png"].icon-sm,
+[src$="analysis-48x48.png"][src*="16x"],
+[src$="analysis-48x48.png"][style*="width: 16p"],
+[src$="analysis-48x48.png"][width="16"],
+[src$="blue.png"].icon16x16,
+[src$="blue.png"].icon-sm,
+[src$="blue.png"][src*="16x"],
+[src$="blue.png"][style*="width: 16p"],
+[src$="blue.png"][width="16"],
+[src$="blue_anime.gif"].icon16x16,
+[src$="blue_anime.gif"].icon-sm,
+[src$="blue_anime.gif"][src*="16x"],
+[src$="blue_anime.gif"][style*="width: 16p"],
+[src$="blue_anime.gif"][width="16"],
+[src$="checkstyle-24x24.png"].icon16x16,
+[src$="checkstyle-24x24.png"].icon-sm,
+[src$="checkstyle-24x24.png"][src*="16x"],
+[src$="checkstyle-24x24.png"][style*="width: 16p"],
+[src$="checkstyle-24x24.png"][width="16"],
+[src$="checkstyle-48x48.png"].icon16x16,
+[src$="checkstyle-48x48.png"].icon-sm,
+[src$="checkstyle-48x48.png"][src*="16x"],
+[src$="checkstyle-48x48.png"][style*="width: 16p"],
+[src$="checkstyle-48x48.png"][width="16"],
+[src$="clipboard.png"].icon16x16,
+[src$="clipboard.png"].icon-sm,
+[src$="clipboard.png"][src*="16x"],
+[src$="clipboard.png"][style*="width: 16p"],
+[src$="clipboard.png"][width="16"],
+[src$="clock.png"].icon16x16,
+[src$="clock.png"].icon-sm,
+[src$="clock.png"][src*="16x"],
+[src$="clock.png"][style*="width: 16p"],
+[src$="clock.png"][width="16"],
+[src$="computer.png"].icon16x16,
+[src$="computer.png"].icon-sm,
+[src$="computer.png"][src*="16x"],
+[src$="computer.png"][style*="width: 16p"],
+[src$="computer.png"][width="16"],
+[src$="confighistory.png"].icon16x16,
+[src$="confighistory.png"].icon-sm,
+[src$="confighistory.png"][src*="16x"],
+[src$="confighistory.png"][style*="width: 16p"],
+[src$="confighistory.png"][width="16"],
+[src$="credentials.png"].icon16x16,
+[src$="credentials.png"].icon-sm,
+[src$="credentials.png"][src*="16x"],
+[src$="credentials.png"][style*="width: 16p"],
+[src$="credentials.png"][width="16"],
+[src$="disabled.png"].icon16x16,
+[src$="disabled.png"].icon-sm,
+[src$="disabled.png"][src*="16x"],
+[src$="disabled.png"][style*="width: 16p"],
+[src$="disabled.png"][width="16"],
+[src$="diskusage48.png"].icon16x16,
+[src$="diskusage48.png"].icon-sm,
+[src$="diskusage48.png"][src*="16x"],
+[src$="diskusage48.png"][style*="width: 16p"],
+[src$="diskusage48.png"][width="16"],
+[src$="domain.png"].icon16x16,
+[src$="domain.png"].icon-sm,
+[src$="domain.png"][src*="16x"],
+[src$="domain.png"][style*="width: 16p"],
+[src$="domain.png"][width="16"],
+[src$="dry-24x24.png"].icon16x16,
+[src$="dry-24x24.png"].icon-sm,
+[src$="dry-24x24.png"][src*="16x"],
+[src$="dry-24x24.png"][style*="width: 16p"],
+[src$="dry-24x24.png"][width="16"],
+[src$="dry-48x48.png"].icon16x16,
+[src$="dry-48x48.png"].icon-sm,
+[src$="dry-48x48.png"][src*="16x"],
+[src$="dry-48x48.png"][style*="width: 16p"],
+[src$="dry-48x48.png"][width="16"],
+[src$="edit-delete.png"].icon16x16,
+[src$="edit-delete.png"].icon-sm,
+[src$="edit-delete.png"][src*="16x"],
+[src$="edit-delete.png"][style*="width: 16p"],
+[src$="edit-delete.png"][width="16"],
+[src$="findbugs-24x24.png"].icon16x16,
+[src$="findbugs-24x24.png"].icon-sm,
+[src$="findbugs-24x24.png"][src*="16x"],
+[src$="findbugs-24x24.png"][style*="width: 16p"],
+[src$="findbugs-24x24.png"][width="16"],
+[src$="findbugs-48x48.png"].icon16x16,
+[src$="findbugs-48x48.png"].icon-sm,
+[src$="findbugs-48x48.png"][src*="16x"],
+[src$="findbugs-48x48.png"][style*="width: 16p"],
+[src$="findbugs-48x48.png"][width="16"],
+[src$="fingerprint.png"].icon16x16,
+[src$="fingerprint.png"].icon-sm,
+[src$="fingerprint.png"][src*="16x"],
+[src$="fingerprint.png"][style*="width: 16p"],
+[src$="fingerprint.png"][width="16"],
+[src$="folder.png"].icon16x16,
+[src$="folder.png"].icon-sm,
+[src$="folder.png"][src*="16x"],
+[src$="folder.png"][style*="width: 16p"],
+[src$="folder.png"][width="16"],
+[src$="gear2.png"].icon16x16,
+[src$="gear2.png"].icon-sm,
+[src$="gear2.png"][src*="16x"],
+[src$="gear2.png"][style*="width: 16p"],
+[src$="gear2.png"][width="16"],
+[src$="gear.png"].icon16x16,
+[src$="gear.png"].icon-sm,
+[src$="gear.png"][src*="16x"],
+[src$="gear.png"][style*="width: 16p"],
+[src$="gear.png"][width="16"],
+[src$="git-32x32.png"].icon16x16,
+[src$="git-32x32.png"].icon-sm,
+[src$="git-32x32.png"][src*="16x"],
+[src$="git-32x32.png"][style*="width: 16p"],
+[src$="git-32x32.png"][width="16"],
+[src$="go-24x24.png"].icon16x16,
+[src$="go-24x24.png"].icon-sm,
+[src$="go-24x24.png"][src*="16x"],
+[src$="go-24x24.png"][style*="width: 16p"],
+[src$="go-24x24.png"][width="16"],
+[src$="go-48x48.png"].icon16x16,
+[src$="go-48x48.png"].icon-sm,
+[src$="go-48x48.png"][src*="16x"],
+[src$="go-48x48.png"][style*="width: 16p"],
+[src$="go-48x48.png"][width="16"],
+[src$="graph.png"].icon16x16,
+[src$="graph.png"].icon-sm,
+[src$="graph.png"][src*="16x"],
+[src$="graph.png"][style*="width: 16p"],
+[src$="graph.png"][width="16"],
+[src$="grey.png"].icon16x16,
+[src$="grey.png"].icon-sm,
+[src$="grey.png"][src*="16x"],
+[src$="grey.png"][style*="width: 16p"],
+[src$="grey.png"][width="16"],
+[src$="grey_anime.gif"].icon16x16,
+[src$="grey_anime.gif"].icon-sm,
+[src$="grey_anime.gif"][src*="16x"],
+[src$="grey_anime.gif"][style*="width: 16p"],
+[src$="grey_anime.gif"][width="16"],
+[src$="help.png"].icon16x16,
+[src$="help.png"].icon-sm,
+[src$="help.png"][src*="16x"],
+[src$="help.png"][style*="width: 16p"],
+[src$="help.png"][width="16"],
+[src$="idea-24x24.png"].icon16x16,
+[src$="idea-24x24.png"].icon-sm,
+[src$="idea-24x24.png"][src*="16x"],
+[src$="idea-24x24.png"][style*="width: 16p"],
+[src$="idea-24x24.png"][width="16"],
+[src$="idea-48x48.png"].icon16x16,
+[src$="idea-48x48.png"].icon-sm,
+[src$="idea-48x48.png"][src*="16x"],
+[src$="idea-48x48.png"][style*="width: 16p"],
+[src$="idea-48x48.png"][width="16"],
+[src$="java-24x24.png"].icon16x16,
+[src$="java-24x24.png"].icon-sm,
+[src$="java-24x24.png"][src*="16x"],
+[src$="java-24x24.png"][style*="width: 16p"],
+[src$="java-24x24.png"][width="16"],
+[src$="java-48x48.png"].icon16x16,
+[src$="java-48x48.png"].icon-sm,
+[src$="java-48x48.png"][src*="16x"],
+[src$="java-48x48.png"][style*="width: 16p"],
+[src$="java-48x48.png"][width="16"],
+[src$="logov3.png"].icon16x16,
+[src$="logov3.png"].icon-sm,
+[src$="logov3.png"][src*="16x"],
+[src$="logov3.png"][style*="width: 16p"],
+[src$="logov3.png"][width="16"],
+[src$="monitor.png"].icon16x16,
+[src$="monitor.png"].icon-sm,
+[src$="monitor.png"][src*="16x"],
+[src$="monitor.png"][style*="width: 16p"],
+[src$="monitor.png"][width="16"],
+[src$="network.png"].icon16x16,
+[src$="network.png"].icon-sm,
+[src$="network.png"][src*="16x"],
+[src$="network.png"][style*="width: 16p"],
+[src$="network.png"][width="16"],
+[src$="new-package.png"].icon16x16,
+[src$="new-package.png"].icon-sm,
+[src$="new-package.png"][src*="16x"],
+[src$="new-package.png"][style*="width: 16p"],
+[src$="new-package.png"][width="16"],
+[src$="nobuilt.png"].icon16x16,
+[src$="nobuilt.png"].icon-sm,
+[src$="nobuilt.png"][src*="16x"],
+[src$="nobuilt.png"][style*="width: 16p"],
+[src$="nobuilt.png"][width="16"],
+[src$="notepad.png"].icon16x16,
+[src$="notepad.png"].icon-sm,
+[src$="notepad.png"][src*="16x"],
+[src$="notepad.png"][style*="width: 16p"],
+[src$="notepad.png"][width="16"],
+[src$="package.gif"].icon16x16,
+[src$="package.gif"].icon-sm,
+[src$="package.gif"][src*="16x"],
+[src$="package.gif"][style*="width: 16p"],
+[src$="package.gif"][width="16"],
+[src$="plugin.png"].icon16x16,
+[src$="plugin.png"].icon-sm,
+[src$="plugin.png"][src*="16x"],
+[src$="plugin.png"][style*="width: 16p"],
+[src$="plugin.png"][width="16"],
+[src$="pmd-24x24.png"].icon16x16,
+[src$="pmd-24x24.png"].icon-sm,
+[src$="pmd-24x24.png"][src*="16x"],
+[src$="pmd-24x24.png"][style*="width: 16p"],
+[src$="pmd-24x24.png"][width="16"],
+[src$="pmd-48x48.png"].icon16x16,
+[src$="pmd-48x48.png"].icon-sm,
+[src$="pmd-48x48.png"][src*="16x"],
+[src$="pmd-48x48.png"][style*="width: 16p"],
+[src$="pmd-48x48.png"][width="16"],
+[src$="red.png"].icon16x16,
+[src$="red.png"].icon-sm,
+[src$="red.png"][src*="16x"],
+[src$="red.png"][style*="width: 16p"],
+[src$="red.png"][width="16"],
+[src$="red_anime.gif"].icon16x16,
+[src$="red_anime.gif"].icon-sm,
+[src$="red_anime.gif"][src*="16x"],
+[src$="red_anime.gif"][style*="width: 16p"],
+[src$="red_anime.gif"][width="16"],
+[src$="refresh.png"].icon16x16,
+[src$="refresh.png"].icon-sm,
+[src$="refresh.png"][src*="16x"],
+[src$="refresh.png"][style*="width: 16p"],
+[src$="refresh.png"][width="16"],
+[src$="resharper-24x24.png"].icon16x16,
+[src$="resharper-24x24.png"].icon-sm,
+[src$="resharper-24x24.png"][src*="16x"],
+[src$="resharper-24x24.png"][style*="width: 16p"],
+[src$="resharper-24x24.png"][width="16"],
+[src$="resharper-48x48.png"].icon16x16,
+[src$="resharper-48x48.png"].icon-sm,
+[src$="resharper-48x48.png"][src*="16x"],
+[src$="resharper-48x48.png"][style*="width: 16p"],
+[src$="resharper-48x48.png"][width="16"],
+[src$="scala-24x24.png"].icon16x16,
+[src$="scala-24x24.png"].icon-sm,
+[src$="scala-24x24.png"][src*="16x"],
+[src$="scala-24x24.png"][style*="width: 16p"],
+[src$="scala-24x24.png"][width="16"],
+[src$="scala-48x48.png"].icon16x16,
+[src$="scala-48x48.png"].icon-sm,
+[src$="scala-48x48.png"][src*="16x"],
+[src$="scala-48x48.png"][style*="width: 16p"],
+[src$="scala-48x48.png"][width="16"],
+[src$="search.png"].icon16x16,
+[src$="search.png"].icon-sm,
+[src$="search.png"][src*="16x"],
+[src$="search.png"][style*="width: 16p"],
+[src$="search.png"][width="16"],
+[src$="secure.png"].icon16x16,
+[src$="secure.png"].icon-sm,
+[src$="secure.png"][src*="16x"],
+[src$="secure.png"][style*="width: 16p"],
+[src$="secure.png"][width="16"],
+[src$="setting.png"].icon16x16,
+[src$="setting.png"].icon-sm,
+[src$="setting.png"][src*="16x"],
+[src$="setting.png"][style*="width: 16p"],
+[src$="setting.png"][width="16"],
+[src$="system-log-out.png"].icon16x16,
+[src$="system-log-out.png"].icon-sm,
+[src$="system-log-out.png"][src*="16x"],
+[src$="system-log-out.png"][style*="width: 16p"],
+[src$="system-log-out.png"][width="16"],
+[src$="tasks-24x24.png"].icon16x16,
+[src$="tasks-24x24.png"].icon-sm,
+[src$="tasks-24x24.png"][src*="16x"],
+[src$="tasks-24x24.png"][style*="width: 16p"],
+[src$="tasks-24x24.png"][width="16"],
+[src$="tasks-48x48.png"].icon16x16,
+[src$="tasks-48x48.png"].icon-sm,
+[src$="tasks-48x48.png"][src*="16x"],
+[src$="tasks-48x48.png"][style*="width: 16p"],
+[src$="tasks-48x48.png"][width="16"],
+[src$="terminal.png"].icon16x16,
+[src$="terminal.png"].icon-sm,
+[src$="terminal.png"][src*="16x"],
+[src$="terminal.png"][style*="width: 16p"],
+[src$="terminal.png"][width="16"],
+[src$="user.png"].icon16x16,
+[src$="user.png"].icon-sm,
+[src$="user.png"][src*="16x"],
+[src$="user.png"][style*="width: 16p"],
+[src$="user.png"][width="16"],
+[src$="warnings-24x24.png"].icon16x16,
+[src$="warnings-24x24.png"].icon-sm,
+[src$="warnings-24x24.png"][src*="16x"],
+[src$="warnings-24x24.png"][style*="width: 16p"],
+[src$="warnings-24x24.png"][width="16"],
+[src$="warnings-48x48.png"].icon16x16,
+[src$="warnings-48x48.png"].icon-sm,
+[src$="warnings-48x48.png"][src*="16x"],
+[src$="warnings-48x48.png"][style*="width: 16p"],
+[src$="warnings-48x48.png"][width="16"],
+[src$="yellow.png"].icon16x16,
+[src$="yellow.png"].icon-sm,
+[src$="yellow.png"][src*="16x"],
+[src$="yellow.png"][style*="width: 16p"],
+[src$="yellow.png"][width="16"],
+[src$="yellow_anime.gif"].icon16x16,
+[src$="yellow_anime.gif"].icon-sm,
+[src$="yellow_anime.gif"][src*="16x"],
+[src$="yellow_anime.gif"][style*="width: 16p"],
+[src$="yellow_anime.gif"][width="16"] {
+    padding-left: 21.6px !important;
+    padding-top: 21.6px !important;
+    height: 0 !important;
+    width: 0 !important;
+    background-size: 100% 100% !important;
+    font-size: 0 !important
+}
+
+#header .icon-help {
+    filter: brightness(10000)
+}
+
+.icon-clock-anime {
+    animation: b ease-in-out 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards
+}
+
+.icon-aborted-anime,
+.icon-blue-anime,
+.icon-grey-anime,
+.icon-nobuilt-anime,
+.icon-red-anime,
+.icon-yellow-anime,
+[src$="blue_anime.gif"],
+[src$="grey_anime.gif"],
+[src$="red_anime.gif"],
+[src$="yellow_anime.gif"] {
+    animation: a 2s linear infinite
+}
+
+[src*="www.gravatar.com"] {
+    height: auto !important;
+    width: auto !important;
+    padding: 0 !important
+}
+
+.task-icon-link[href="/"] img {
+    padding: 36px 0 0 36px !important;
+    filter: brightness(10000)
+}
+
+.CodeMirror {
+    background-color: #263238 !important;
+    color: #e9eded !important;
+    font-size: 14px;
+    cursor: text
+}
+
+.CodeMirror * {
+    font-family: monospace !important
+}
+
+.CodeMirror pre {
+    line-height: 20px !important
+}
+
+.CodeMirror-gutters {
+    background: #263238 !important;
+    border: 0
+}
+
+.CodeMirror-guttermarker,
+.CodeMirror-guttermarker-subtle,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+    color: #537f7e !important
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #e9eded !important
+}
+
+.CodeMirror-focused div.CodeMirror-selected,
+.CodeMirror-line::selection,
+.CodeMirror-line>span::selection,
+.CodeMirror-line>span>span::selection,
+div.CodeMirror-selected {
+    background: hsla(0, 0%, 100%, .15) !important
+}
+
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line>span::-moz-selection,
+.CodeMirror-line>span>span::-moz-selection {
+    background: hsla(0, 0%, 100%, .15) !important
+}
+
+.CodeMirror-activeline-background {
+    background: #263238 !important
+}
+
+.cm-keyword {
+    color: #c792ea !important
+}
+
+.cm-operator {
+    color: #fff !important
+}
+
+.cm-variable-2 {
+    color: #80cbc4 !important
+}
+
+.cm-variable-3 {
+    color: #82b1ff !important
+}
+
+.cm-builtin {
+    color: #decb6b !important
+}
+
+.cm-atom,
+.cm-number {
+    color: #f77669 !important
+}
+
+.cm-def {
+    color: #e9eded !important
+}
+
+.cm-string {
+    color: #decb6b !important
+}
+
+.cm-string-2 {
+    color: #80cbc4 !important
+}
+
+.cm-comment {
+    color: #537f7e !important
+}
+
+.cm-variable {
+    color: #82b1ff !important
+}
+
+.cm-meta,
+.cm-tag {
+    color: #80cbc4 !important
+}
+
+.cm-attribute {
+    color: #decb6b !important
+}
+
+.cm-property {
+    color: #80cbc4 !important
+}
+
+.cm-qualifier,
+.cm-variable-3 {
+    color: #decb6b !important
+}
+
+.cm-tag {
+    color: #f77669 !important
+}
+
+.cm-error {
+    color: #e9eded !important;
+    background-color: #f77669 !important
+}
+
+.CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: #e9eded !important
+}
+
+:not(div.ace_editor) {
+    font-family: Roboto, sans-serif !important;
+    outline: 0
+}
+
+body,
+form,
+p,
+table,
+td,
+th {
+    color: #444 !important
+}
+
+body {
+    font-family: Roboto, sans-serif !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    background-color: #fff
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none !important;
+    color: #795548
+}
+
+a:hover,
+a:hover:hover,
+a:link:hover,
+a:visited:hover {
+    opacity: .75
+}
+
+.task-link[href="/"] {
+    display: none
+}
+
+.task-icon-link[href="/"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #795548;
+    height: 64px;
+    width: 250px;
+    z-index: 2;
+    padding: 12px
+}
+
+.task-icon-link[href="/"]:hover {
+    opacity: 1 !important
+}
+
+#header {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    height: 64px;
+    background-color: #795548;
+    text-transform: uppercase;
+    right: 0;
+    left: 0;
+    top: 0;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    z-index: 1
+}
+
+#header .login {
+    top: inherit;
+    margin-top: 3px
+}
+
+#header .login b {
+    font-weight: 400
+}
+
+#header #search-box {
+    background: #fff;
+    padding-left: 10px
+}
+
+#breadcrumbBar #breadcrumbs {
+    border: 0 !important
+}
+
+#breadcrumb-menu[style*="top: -27px;"] {
+    margin-top: 26px
+}
+
+.top-sticker-inner {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    background: none repeat scroll 0 0 #fff !important
+}
+
+#breadcrumbs LI:hover,
+A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+    background-color: transparent !important;
+    color: #795548 !important
+}
+
+#breadcrumbs {
+    color: #888 !important;
+    text-decoration: none;
+    text-shadow: 0 1px #fff
+}
+
+table.pane tr:nth-child(odd) td {
+    background-color: #fff
+}
+
+th.pane {
+    background-color: transparent
+}
+
+#side-panel .task-link {
+    color: #444
+}
+
+.bottom-sticker-edge {
+    display: none
+}
+
+.bottom-sticker-inner {
+    margin: 0 0 0 -15px;
+    padding-left: 15px;
+    background: none repeat scroll 0 0 #fff !important;
+    box-shadow: 0 3px 8px 1px #fff
+}
+
+#projectstatus td,
+#projectstatus th {
+    color: #444
+}
+
+#projectstatus th a {
+    color: #999;
+    font-weight: 400
+}
+
+#projectstatus th a:hover {
+    color: #666
+}
+
+#projectstatus tr:hover,
+#projectstatus tr:hover td {
+    background-color: #f0f0f0 !important
+}
+
+#projectstatus .healthReportDetails table tbody tr:hover td,
+#projectstatus .healthReportDetails table tbody tr td {
+    background-color: #fff !important;
+    color: #444 !important
+}
+
+a#jenkins-home-link {
+    opacity: 1 !important
+}
+
+table.progress-bar.red td.progress-bar-done {
+    background-color: #f44336 !important;
+    border-color: #f44336 !important
+}
+
+td.progress-bar-done {
+    background-color: #009688 !important;
+    border-color: #009688 !important
+}
+
+td.progress-bar-left {
+    border: 0 !important;
+    background-color: #ccc !important
+}
+
+table.progress-bar {
+    border-color: transparent !important
+}
+
+#main-panel-content>div:nth-child(2),
+.ygtvlabel,
+.ygtvlabel:hover,
+.ygtvlabel:link,
+.ygtvlabel:visited {
+    background-color: transparent !important
+}
+
+#main-panel>pre {
+    font-family: Roboto Mono, monospace !important
+}
+
+.yui-button button {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: 0 !important;
+    border-radius: 2px;
+    display: inline-block;
+    outline: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.yui-button.primary button {
+    color: #fff !important;
+    background-color: #795548 !important
+}
+
+.yui-button+.yui-button {
+    margin-left: 1em
+}
+
+.console-output .error-inline {
+    color: #f44336
+}
+
+.console-output,
+.console-output * {
+    position: relative;
+    font-family: Roboto Mono, monospace !important;
+    font-size: 14px;
+    background: #263238;
+    color: #e9eded;
+    cursor: text
+}
+
+.console-output {
+    padding: 10px 20px
+}
+
+.ace_editor {
+    font: 12px/normal Roboto Mono, monospace
+}
+
+[style^="color:gray"] {
+    color: #9e9e9e !important
+}
+
+[style^="color:red"] {
+    color: #f44336 !important
+}
+
+.jenkins_ver:after {
+    margin-left: 15px;
+    content: "afonsof.com/jenkins-material-theme v. 1.3.3"
+}
+
+pre a {
+    cursor: pointer !important
+}
+
+#console-outline-body>li {
+    list-style-type: none
+}
+
+.left-bar {
+    top: 27px !important;
+    left: 16px !important
+}
+
+.yuimenuitem-selected {
+    background-color: #795548 !important
+}
+
+.yuimenuitem-selected>a {
+    color: #fff !important
+}
+
+.yuimenuitem-selected>a>img {
+    filter: brightness(10000)
+}
+
+.comboBoxList {
+    color: #263238
+}
+
+.build-row-cell .pane .build-controls {
+    width: 25% !important
+}
+
+.build-row-cell .pane .build-details {
+    width: 45% !important
+}
+
+.build-row-cell .pane .build-name .display-name {
+    margin-left: 35% !important
+}
+
+#header {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkQAAAFcCAYAAAApjaExAAAAAXNSR0IArs4c6QAAIABJREFUeF7snQecZFWV/88NL1Tq6p5hGNIiKEaQNeyqa0YRjKCjmBUDCCLoYlj/5rQqrGtGUdQ1YEJFFCOg7qoYdlmMgGlBRNIwMz3TlV689/7rVL87vGl7umqmq7rSeXyGDvXeffd+761+vzrn3HMY0EEEiAARIAJEgAgQgSknwKZ8/DR8IkAEiAARIAJEgAgACSJaBESACBABIkAEiMDUEyBBNPVLgAAQASJABIgAESACJIhoDRABIkAEiAARIAJTT4AE0dQvAQJABIgAESACRIAIkCCiNUAEiAARIAJEgAhMPQESRFO/BAgAESACRIAIEAEiQIKI1gARIAJEgAgQASIw9QRIEE39EiAARIAIEAEiQASIAAkiWgNEgAgQASJABIjA1BMgQTT1S4AAEAEiQASIABEgAiSIaA0QASJABIgAESACU0+ABNHULwECQASIABEgAkSACJAgojVABIgAESACRIAITD0BEkRTvwQIABEgAkSACBABIkCCiNYAESACRIAIEAEiMPUESBBN/RIgAESACBABIkAEiAAJIloDRIAIEAEiQASIwNQTIEE09UuAABABIkAEiAARIAIkiGgNEAEiQASIABEgAlNPgATR1C8BAkAEiAARIAJEgAiQIKI1QASIABEgAkSACEw9ARJEU78ECAARIAJEgAgQASJAgojWABEgAkSACBABIjD1BEgQTf0SIABEgAgQASJABIgACSJaA0SACBABIkAEiMDUEyBBNPVLgAAQASJABIgAESACJIhoDRABIkAEiAARIAJTT4AE0dQvAQJABIgAESACRIAIkCCiNUAEiAARIAJEgAhMPQESRFO/BAgAESACRIAIEAEiQIKI1gARIAJEgAgQASIw9QRIEE39EiAARIAIEAEiQASIAAkiWgNEgAgQASJABIjA1BMgQTT1S4AAEAEiQASIABEgAiSIaA0QASJABIgAESACU0+ABNHULwECQASIABEgAkSACJAgojVABIgAESACRIAITD0BEkRTvwQIABEgAkSACBABIkCCiNYAESACRIAIEAEiMPUESBBN/RIgAESACBABIkAEiAAJIloDRIAIEAEiQASIwNQTIEE09UuAABABIkAEiAARIAIkiGgNEAEiQASIABEgAlNPgATR1C8BAkAEiAARIAJEgAiQIKI1QASIABEgAkSACEw9ARJEU78ECAARIAJEgAgQASJAgojWABEgAkSACBABIjD1BEgQTf0SIABEgAgQASJABIgACSJaA0SACBABIkAEiMDUEyBBNPVLgAAQASJABIgAESACJIhoDRABIkAEiAARIAJTT4AE0dQvAQJABIgAESACRIAIkCCiNUAEiAARIAJEgAhMPQESRFO/BAgAESACRIAIEAEiQIKI1gARIAJEgAgQASIw9QRIEE39EiAARIAIEAEiQASIAAkiWgNEgAgQASJABIjA1BMgQTT1S4AAEAEiQASIABEgAiSIaA0QASJABIgAESACU0+ABNHULwECQASIABEgAkSACJAgojVABIgAESACRIAITD0BEkRTvwQIABEgAkSACBABIkCCiNYAESACRIAIEAEiMPUESBBN/RIgAESACBABIkAEiAAJIloDRIAIEAEiQASIwNQTIEE09UuAABABIkAEiAARIAIkiGgNEAEiQASIABEgAlNPgATR1C8BAkAEiAARIAJEgAiQIKI1QASIABEgAkSACEw9ARJEU78ECAARIAJEgAgQASJAgojWABEgAkSACBABIjD1BEgQTf0SIABEgAgQASJABIgACSJaA0SACBABIkAEiMDUEyBBNPVLgAAQASJABIgAESACJIhoDRABIkAEiAARIAJTT4AE0dQvAQJABIgAESACRIAIkCCiNUAEiAARIAJEgAhMPQESRFO/BAgAESACRIAIEAEiQIKI1gARIAJEgAgQASIw9QRIEE39EiAARIAIEAEiQASIAAkiWgNEgAgQASJABIjA1BMgQTT1S4AADIEAz+6pAWA9AOD7UBSLRdFqtfB3Se5fAAB4Pv6eDiJABIgAERgQARJEAwJLzRKBTOgYAChXq9UNWuv96/X6YVLKu6RpehcA2Dc7RwKAg6IoEz4xYywEAPx6m9b6Zt/3f8cY+z0A3LR+/fr5G2+8EYUSHUSACBABItAnAiSI+gSSmiECOQKlcrl8KGPskCAIHpKm6SEAcLgQ4o5KKZ9zDlrrpFAo8DAMpTGomf7m2PnL7Hw8oea67g1pml6ttf5ltVr9c5Ikl7darXkAiGgGiAARIAJEYO8JkCDae3Z0JRHIE/Cq1eqBQRDcJ47joznnD9daHwYAoe/7XhzH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');
+    background-repeat: no-repeat;
+    background-size: auto 40px, cover;
+    background-position: 10px 10px;
+}
+
+#jenkins-home-link {
+    display: none !important
+}
